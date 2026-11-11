@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-11",
+  "repository": "https://github.com/capvalis/CLVS_Vision",
+  "release_tag": "raw-datasets-2026-11-11",
+  "release_url": "https://github.com/capvalis/CLVS_Vision/releases/tag/raw-datasets-2026-11-11",
+  "format": "tar.zst split into ordered parts of at most 1,900,000,000 bytes",
+  "excluded_files": [
+    ".DS_Store"
+  ],
+  "total_files": 140689,
+  "total_source_bytes": 13196335725,
+  "total_archive_bytes": 12436445614,
+  "datasets": [
+    {
+      "name": "HERIDAL",
+      "restore_path": "Dataset/HERIDAL",
+      "file_count": 2,
+      "directory_count": 2,
+      "source_size_bytes": 4974743004,
+      "archive_name": "HERIDAL.tar.zst",
+      "archive_size_bytes": 4974129096,
+      "archive_sha256": "c59bc68d149b079123aa6da55fdadb7faf834fede15e71651b7ad759780f49ee",
+      "parts": [
+        {
+          "name": "HERIDAL.tar.zst.part001",
+          "size_bytes": 1900000000,
+          "sha256": "d6a16676e589e3b9c8d81d29fffc86510e44636813c881964b599c4b628c02f9",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/HERIDAL.tar.zst.part001"
+        },
+        {
+          "name": "HERIDAL.tar.zst.part002",
+          "size_bytes": 1900000000,
+          "sha256": "2474fafdc59abf9d9a4a8009992b9ded8548bfba8102de92de1b78486541c1f4",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/HERIDAL.tar.zst.part002"
+        },
+        {
+          "name": "HERIDAL.tar.zst.part003",
+          "size_bytes": 1174129096,
+          "sha256": "da98ae44eed46b62c42611d8c7c06713401daa6e93fb5656c479396c9267b3f0",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/HERIDAL.tar.zst.part003"
+        }
+      ]
+    },
+    {
+      "name": "HIT-UAV",
+      "restore_path": "Dataset/HIT-UAV",
+      "file_count": 17437,
+      "directory_count": 32,
+      "source_size_bytes": 1644590447,
+      "archive_name": "HIT-UAV.tar.zst",
+      "archive_size_bytes": 1617112931,
+      "archive_sha256": "7a8149da4fe52f1859a418d1539489ff61d3ecc14d02206abd5b4895c98fb51b",
+      "parts": [
+        {
+          "name": "HIT-UAV.tar.zst.part001",
+          "size_bytes": 1617112931,
+          "sha256": "7a8149da4fe52f1859a418d1539489ff61d3ecc14d02206abd5b4895c98fb51b",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/HIT-UAV.tar.zst.part001"
+        }
+      ]
+    },
+    {
+      "name": "Halmstad",
+      "restore_path": "Dataset/Halmstad",
+      "file_count": 70035,
+      "directory_count": 660,
+      "source_size_bytes": 2012341528,
+      "archive_name": "Halmstad.tar.zst",
+      "archive_size_bytes": 1559001040,
+      "archive_sha256": "6162bbd867e72c5021b1681e3cb8e04f1e29ae7d1fee73b35c76c520e66e9751",
+      "parts": [
+        {
+          "name": "Halmstad.tar.zst.part001",
+          "size_bytes": 1559001040,
+          "sha256": "6162bbd867e72c5021b1681e3cb8e04f1e29ae7d1fee73b35c76c520e66e9751",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/Halmstad.tar.zst.part001"
+        }
+      ]
+    },
+    {
+      "name": "MendeleyVehicles",
+      "restore_path": "Dataset/MendeleyVehicles",
+      "file_count": 0,
+      "directory_count": 2,
+      "source_size_bytes": 0,
+      "archive_name": "MendeleyVehicles.tar.zst",
+      "archive_size_bytes": 309,
+      "archive_sha256": "5da97558b0fcf7a1cbae82bdace4d10fc976572dd2ec025bdb07ea1e9a06ad28",
+      "parts": [
+        {
+          "name": "MendeleyVehicles.tar.zst.part001",
+          "size_bytes": 309,
+          "sha256": "5da97558b0fcf7a1cbae82bdace4d10fc976572dd2ec025bdb07ea1e9a06ad28",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/MendeleyVehicles.tar.zst.part001"
+        }
+      ]
+    },
+    {
+      "name": "TNO",
+      "restore_path": "Dataset/TNO",
+      "file_count": 583,
+      "directory_count": 95,
+      "source_size_bytes": 379181770,
+      "archive_name": "TNO.tar.zst",
+      "archive_size_bytes": 257307758,
+      "archive_sha256": "5d693d40011b648aa0ab956754e6febdb94d5a554e33078d8665143c1a9a8a7b",
+      "parts": [
+        {
+          "name": "TNO.tar.zst.part001",
+          "size_bytes": 257307758,
+          "sha256": "5d693d40011b648aa0ab956754e6febdb94d5a554e33078d8665143c1a9a8a7b",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/TNO.tar.zst.part001"
+        }
+      ]
+    },
+    {
+      "name": "military_object_dataset",
+      "restore_path": "Dataset/military_object_dataset",
+      "file_count": 52632,
+      "directory_count": 10,
+      "source_size_bytes": 4185478976,
+      "archive_name": "military_object_dataset.tar.zst",
+      "archive_size_bytes": 4028894480,
+      "archive_sha256": "4a6823a593dc7fccb94e82718aef40da118aafbc5e36660e4bd5a765ab2428b2",
+      "parts": [
+        {
+          "name": "military_object_dataset.tar.zst.part001",
+          "size_bytes": 1900000000,
+          "sha256": "b097f6fd586f03e99b74d642ff381ce3b99f4d13e74c73b67192e34f04a0072e",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/military_object_dataset.tar.zst.part001"
+        },
+        {
+          "name": "military_object_dataset.tar.zst.part002",
+          "size_bytes": 1900000000,
+          "sha256": "9ac1c0038b1fd502f2ac125e8b57b3223a8b19a1148c01bbc5e6bb5ecc21b9e3",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/military_object_dataset.tar.zst.part002"
+        },
+        {
+          "name": "military_object_dataset.tar.zst.part003",
+          "size_bytes": 228894480,
+          "sha256": "289a1ebbcd6fbd6bd4f51e4255f5f98cdfdb29b5ebc3deccd33fd843d835ae6e",
+          "url": "https://github.com/capvalis/CLVS_Vision/releases/download/raw-datasets-2026-11-11/military_object_dataset.tar.zst.part003"
+        }
+      ]
+    }
+  ]
+}

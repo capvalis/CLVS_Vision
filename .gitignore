@@ -18,3 +18,6 @@ __pycache__/
 /Dataset/military_object_dataset/train/
 /Dataset/military_object_dataset/val/
 /Dataset/military_object_dataset/test/
+
+# Temporary downloads used to restore the dataset release
+/.dataset-downloads/
