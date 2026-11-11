@@ -14,6 +14,8 @@ All raw dataset content from the local Computer Vision folder is stored in the [
 
 `MendeleyVehicles/raw/` was empty in the source and is preserved as an empty directory. This is a snapshot of the files that were present, not a claim that every upstream dataset release was fully downloaded.
 
+The local HERIDAL ZIP was an incomplete download: 4,974,743,004 bytes of the upstream 8,311,735,812-byte archive. This release preserves those exact local bytes.
+
 Each dataset is a `.tar.zst` archive divided into numbered parts of at most 1,900,000,000 bytes. Every part is required for that dataset; concatenate them in numeric order before decompression. [manifest.json](manifest.json) records download URLs, sizes, file counts, and SHA-256 hashes. [SHA256SUMS.txt](SHA256SUMS.txt) lists the hash of each downloadable part.
 
 ## Download and restore
@@ -51,3 +53,7 @@ SH
 To restore just one dataset, download all of its numbered parts from the release, verify those parts against `SHA256SUMS.txt`, and run the corresponding `cat … | zstd -d -c | tar -xf -` command from the example above. Downloaded archives in `.dataset-downloads/` can be removed after a successful restore.
 
 Raw dataset directories remain ignored by Git. Their documentation and export metadata are also available as ordinary repository files, alongside the release manifest and checksums.
+
+## Rebuilding release assets
+
+The manually triggered [archive workflow](../.github/workflows/archive-datasets.yml) can reconstruct the HERIDAL, HIT-UAV, TNO, and military dataset archives from public source downloads. The compressed recipes in `archive-recipes/` contain original tar headers, file hashes, and small file contents. The workflow verifies every reconstructed part against this snapshot's existing SHA-256 values before uploading it. Halmstad's exported frames and the empty Mendeley directory are supplied directly as release assets.
