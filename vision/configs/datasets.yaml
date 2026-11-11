@@ -1,0 +1,43 @@
+# Where the raw datasets live on this machine. Paths are relative to the Capvalis/Computer Vision folder
+# unless absolute. Only kaggle_military is present as of 11 November 2026; the others are placeholders
+# for when they are downloaded (see ../../Training Datasets.md section 5 for download status).
+#
+# `importer` picks the reader; `source` picks the label mapping in classes.yaml.
+kaggle_military:
+  importer: kaggle_military
+  source: kaggle_military
+  root: Dataset/military_object_dataset
+  class_file: military_dataset.yaml
+  splits: [train, val, test]        # raw splits; rebuilt after deduplication
+hit_uav:
+  importer: voc_xml
+  source: hit_uav
+  root: Dataset/HIT-UAV/extracted/suojiashun-HIT-UAV-Infrared-Thermal-Dataset-b53106c
+  images: normal_xml/JPEGImages
+  annotations: normal_xml/Annotations   # VOC XML, not the COCO JSON (known offset bug, repo issue #6)
+  group_regex: "^(\\d)_(\\d+)_(\\d+)_(\\d)_"   # day/night, altitude, angle, weather -> scene group
+heridal:
+  importer: voc_xml
+  source: heridal
+  root: Dataset/HERIDAL
+  images: JPEGImages
+  annotations: Annotations
+  official_test_list: ImageSets/Main/test.txt
+seadronessee:
+  importer: coco_json
+  source: seadronessee
+  root: Dataset/SeaDronesSee
+  images: images
+  train_json: annotations/instances_train.json
+  val_json: annotations/instances_val.json
+halmstad:
+  importer: halmstad
+  source: halmstad
+  root: Dataset/Halmstad
+  exclude_internet_clips: true      # 11 airplane + 38 helicopter clips from YouTube
+mendeley_vehicles:
+  importer: voc_xml
+  source: mendeley_vehicles
+  root: Dataset/MendeleyVehicles
+  images: images
+  annotations: xml

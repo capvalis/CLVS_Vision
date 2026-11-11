@@ -1,0 +1,5229 @@
+{
+ "summary": {
+  "clips": 650,
+  "frames_written": 67983,
+  "frames_in_videos": 203328,
+  "clips_with_label_mismatch": [
+   "IR_BIRD_027",
+   "IR_BIRD_035",
+   "IR_DRONE_096",
+   "IR_DRONE_101",
+   "IR_DRONE_104",
+   "V_BIRD_003",
+   "V_BIRD_004",
+   "V_BIRD_005",
+   "V_BIRD_006",
+   "V_BIRD_009",
+   "V_BIRD_015",
+   "V_BIRD_017",
+   "V_BIRD_020",
+   "V_BIRD_021",
+   "V_BIRD_022",
+   "V_BIRD_023",
+   "V_HELICOPTER_040"
+  ],
+  "stride": 3
+ },
+ "clips": [
+  {
+   "clip": "IR_AIRPLANE_001",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_AIRPLANE_002",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_AIRPLANE_003",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "IR_AIRPLANE_004",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_AIRPLANE_005",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_AIRPLANE_006",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_AIRPLANE_007",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_AIRPLANE_008",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_AIRPLANE_009",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "IR_AIRPLANE_010",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "IR_AIRPLANE_011",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_AIRPLANE_012",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_AIRPLANE_013",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_AIRPLANE_014",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_AIRPLANE_015",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "IR_AIRPLANE_016",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_AIRPLANE_017",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_AIRPLANE_018",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_AIRPLANE_019",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_AIRPLANE_020",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_AIRPLANE_021",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_AIRPLANE_022",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_AIRPLANE_023",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_AIRPLANE_024",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "IR_AIRPLANE_025",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_AIRPLANE_026",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_AIRPLANE_027",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_028",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_029",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_AIRPLANE_030",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_AIRPLANE_031",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_032",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_AIRPLANE_033",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_034",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_035",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_036",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_AIRPLANE_037",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_AIRPLANE_038",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_AIRPLANE_039",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_AIRPLANE_040",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "IR_AIRPLANE_041",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_AIRPLANE_042",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_AIRPLANE_043",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_AIRPLANE_044",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "IR_AIRPLANE_045",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_AIRPLANE_046",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_AIRPLANE_047",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_AIRPLANE_048",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_AIRPLANE_049",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_AIRPLANE_050",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_AIRPLANE_051",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_AIRPLANE_052",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_AIRPLANE_053",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_054",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_AIRPLANE_055",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_056",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_AIRPLANE_057",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_058",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_AIRPLANE_059",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_AIRPLANE_060",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_AIRPLANE_061",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_AIRPLANE_062",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_AIRPLANE_063",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_AIRPLANE_064",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_AIRPLANE_065",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_AIRPLANE_066",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_AIRPLANE_067",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_AIRPLANE_068",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_AIRPLANE_069",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_AIRPLANE_070",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_AIRPLANE_071",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_AIRPLANE_072",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_AIRPLANE_073",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_AIRPLANE_074",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "IR_BIRD_001",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "IR_BIRD_002",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_003",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_004",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_005",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_BIRD_006",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_007",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_008",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_BIRD_009",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_010",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_BIRD_011",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_BIRD_012",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_BIRD_013",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_014",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "IR_BIRD_015",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_BIRD_016",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_BIRD_017",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_BIRD_018",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_BIRD_019",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_BIRD_020",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "IR_BIRD_021",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_BIRD_022",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_BIRD_023",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_BIRD_024",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_BIRD_025",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_BIRD_026",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_027",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 85,
+   "label_mismatch": true,
+   "declared_frames": 319
+  },
+  {
+   "clip": "IR_BIRD_028",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_BIRD_029",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "IR_BIRD_030",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_BIRD_031",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_032",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_BIRD_033",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_BIRD_034",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_BIRD_035",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 174,
+   "label_mismatch": true,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_036",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_BIRD_037",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_038",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_BIRD_039",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "IR_BIRD_040",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "IR_BIRD_041",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_042",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_BIRD_043",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_BIRD_044",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_045",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_046",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "IR_BIRD_047",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_BIRD_048",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_049",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_BIRD_050",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_051",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_052",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_BIRD_053",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_BIRD_054",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_BIRD_055",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_BIRD_056",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_057",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_058",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_059",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_BIRD_060",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_BIRD_061",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_BIRD_062",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_BIRD_063",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_BIRD_064",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_BIRD_065",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_BIRD_066",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_BIRD_067",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_BIRD_068",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "IR_BIRD_069",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_BIRD_070",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_BIRD_071",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_BIRD_072",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_BIRD_073",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_BIRD_074",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_BIRD_075",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_BIRD_076",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_BIRD_077",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_BIRD_078",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_BIRD_079",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_001",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_002",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_DRONE_003",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_004",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_005",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_DRONE_006",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_DRONE_007",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_008",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_DRONE_009",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "IR_DRONE_010",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "IR_DRONE_011",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_DRONE_012",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "IR_DRONE_013",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_DRONE_014",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_DRONE_015",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_DRONE_016",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_017",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_DRONE_018",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "IR_DRONE_019",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_020",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_021",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_022",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_023",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_024",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_DRONE_025",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_026",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_027",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_DRONE_028",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_029",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_DRONE_030",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_031",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_032",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_DRONE_033",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_034",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_035",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_DRONE_036",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_037",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_DRONE_038",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_039",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_040",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_DRONE_041",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_DRONE_042",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_043",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "IR_DRONE_044",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "IR_DRONE_045",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "IR_DRONE_046",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_047",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_048",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_049",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_050",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_051",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_052",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_053",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_DRONE_054",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_055",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_056",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_057",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_058",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_059",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_DRONE_060",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_061",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_062",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_063",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_064",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_065",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_066",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_067",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_DRONE_068",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_069",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_DRONE_070",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "IR_DRONE_071",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_072",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_073",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_074",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_075",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_076",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_077",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_078",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_079",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_080",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_081",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_082",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_083",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_084",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_085",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_086",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_087",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_088",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_089",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_090",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_091",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_092",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_093",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_094",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_095",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_096",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 397,
+   "label_mismatch": true,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_097",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_098",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_099",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_DRONE_100",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_101",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 342,
+   "label_mismatch": true,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_102",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_103",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_104",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 360,
+   "label_mismatch": true,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_105",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_106",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "IR_DRONE_107",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_108",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_109",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_110",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_DRONE_111",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_112",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_113",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_DRONE_114",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_115",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_116",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_DRONE_117",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_DRONE_118",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_119",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_120",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_DRONE_121",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_122",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_123",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_DRONE_124",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_125",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_126",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_127",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_128",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_129",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_130",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "IR_DRONE_131",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_132",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_DRONE_133",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_134",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_135",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_DRONE_136",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_137",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_138",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_139",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_140",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_141",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_142",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_DRONE_143",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_144",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "IR_DRONE_145",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_146",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_147",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_148",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_DRONE_149",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_150",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_151",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_DRONE_152",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_153",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_154",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_DRONE_155",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_DRONE_156",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_DRONE_157",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_HELICOPTER_001",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_002",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_HELICOPTER_003",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_004",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_005",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_006",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_HELICOPTER_007",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_008",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "IR_HELICOPTER_009",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_010",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_HELICOPTER_011",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_HELICOPTER_012",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_HELICOPTER_013",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_014",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_015",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "IR_HELICOPTER_016",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_HELICOPTER_017",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_HELICOPTER_018",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_HELICOPTER_019",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_HELICOPTER_020",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "IR_HELICOPTER_021",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_HELICOPTER_022",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "IR_HELICOPTER_023",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_024",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_HELICOPTER_025",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_HELICOPTER_026",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "IR_HELICOPTER_027",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "IR_HELICOPTER_028",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "IR_HELICOPTER_029",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_HELICOPTER_030",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_HELICOPTER_031",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "IR_HELICOPTER_032",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "IR_HELICOPTER_033",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_034",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "IR_HELICOPTER_035",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_036",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_HELICOPTER_037",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_038",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_HELICOPTER_039",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_040",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_HELICOPTER_041",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "IR_HELICOPTER_042",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "IR_HELICOPTER_043",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_HELICOPTER_044",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_HELICOPTER_045",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_HELICOPTER_046",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_HELICOPTER_047",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_HELICOPTER_048",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_HELICOPTER_049",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "IR_HELICOPTER_050",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "IR_HELICOPTER_051",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "IR_HELICOPTER_052",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "IR_HELICOPTER_053",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "IR_HELICOPTER_054",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "IR_HELICOPTER_055",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_AIRPLANE_001",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_AIRPLANE_002",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_AIRPLANE_003",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_AIRPLANE_004",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_AIRPLANE_005",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_AIRPLANE_006",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_AIRPLANE_007",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_AIRPLANE_008",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "V_AIRPLANE_009",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 325,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_AIRPLANE_010",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_AIRPLANE_011",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_AIRPLANE_012",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_AIRPLANE_013",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_AIRPLANE_014",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_AIRPLANE_015",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_AIRPLANE_016",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "V_AIRPLANE_017",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_AIRPLANE_018",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_AIRPLANE_019",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_AIRPLANE_020",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_AIRPLANE_021",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_AIRPLANE_022",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_AIRPLANE_023",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_AIRPLANE_024",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_AIRPLANE_025",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_AIRPLANE_026",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_AIRPLANE_027",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_AIRPLANE_028",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_AIRPLANE_029",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_AIRPLANE_030",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "V_AIRPLANE_031",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_AIRPLANE_032",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_AIRPLANE_033",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_AIRPLANE_034",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_AIRPLANE_035",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_AIRPLANE_036",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_AIRPLANE_037",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_AIRPLANE_038",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_AIRPLANE_039",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_AIRPLANE_040",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_AIRPLANE_041",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_AIRPLANE_042",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_AIRPLANE_043",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_AIRPLANE_044",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_AIRPLANE_045",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_AIRPLANE_046",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_AIRPLANE_047",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_AIRPLANE_048",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_AIRPLANE_049",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_AIRPLANE_050",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_AIRPLANE_051",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "V_AIRPLANE_052",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_AIRPLANE_053",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_AIRPLANE_054",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_AIRPLANE_055",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_AIRPLANE_056",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "V_AIRPLANE_057",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_AIRPLANE_058",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_AIRPLANE_059",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_BIRD_001",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_BIRD_002",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_BIRD_003",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 283,
+   "label_mismatch": true,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_BIRD_004",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 312,
+   "label_mismatch": true,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_BIRD_005",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 1,
+   "label_mismatch": true,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_BIRD_006",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 257,
+   "label_mismatch": true,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_BIRD_007",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_BIRD_008",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_BIRD_009",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 37,
+   "label_mismatch": true,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_BIRD_010",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "V_BIRD_011",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_BIRD_012",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_BIRD_013",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_BIRD_014",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_BIRD_015",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 307,
+   "label_mismatch": true,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_BIRD_016",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_BIRD_017",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 173,
+   "label_mismatch": true,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_BIRD_018",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_BIRD_019",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_BIRD_020",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 233,
+   "label_mismatch": true,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_BIRD_021",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 312,
+   "label_mismatch": true,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_BIRD_022",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 289,
+   "label_mismatch": true,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_BIRD_023",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 196,
+   "label_mismatch": true,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_BIRD_024",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_BIRD_025",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_BIRD_026",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_BIRD_027",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_BIRD_028",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_BIRD_029",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_BIRD_030",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_BIRD_031",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_BIRD_032",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_BIRD_033",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_BIRD_034",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_BIRD_035",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_BIRD_036",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_BIRD_037",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_BIRD_038",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_BIRD_039",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_BIRD_040",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_BIRD_041",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_BIRD_042",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_BIRD_043",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_BIRD_044",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_BIRD_045",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_BIRD_046",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_BIRD_047",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_BIRD_048",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_BIRD_049",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_BIRD_050",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_BIRD_051",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_DRONE_001",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_002",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_003",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_DRONE_004",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_DRONE_005",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_006",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_DRONE_007",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_008",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_009",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_010",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_011",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_012",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "V_DRONE_013",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_014",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_015",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_016",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_DRONE_017",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_018",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_019",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_DRONE_020",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_021",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_DRONE_022",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_023",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_024",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_025",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_026",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_027",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_DRONE_028",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_029",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_030",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_DRONE_031",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_032",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_DRONE_033",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_034",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_035",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_036",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_DRONE_037",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_038",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_DRONE_039",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_DRONE_040",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_041",
+   "frames_in_video": 327,
+   "frames_written": 109,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 327
+  },
+  {
+   "clip": "V_DRONE_042",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_DRONE_043",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_044",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_045",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_DRONE_046",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_047",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_048",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_DRONE_049",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_DRONE_050",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_051",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_DRONE_052",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_053",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_054",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_055",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_DRONE_056",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_057",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_DRONE_058",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_059",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_DRONE_060",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_DRONE_061",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_DRONE_062",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_DRONE_063",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_DRONE_064",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_065",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_DRONE_066",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_DRONE_067",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_DRONE_068",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_069",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_070",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_071",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_DRONE_072",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_073",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_074",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_075",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 316,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_DRONE_076",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_DRONE_077",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_078",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_079",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_DRONE_080",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_081",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_DRONE_082",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_DRONE_083",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_DRONE_084",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_085",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_086",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_087",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_088",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_DRONE_089",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_DRONE_090",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_091",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_DRONE_092",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_DRONE_093",
+   "frames_in_video": 329,
+   "frames_written": 110,
+   "label_entries": 330,
+   "label_mismatch": false,
+   "declared_frames": 329
+  },
+  {
+   "clip": "V_DRONE_094",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_DRONE_095",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_DRONE_096",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_DRONE_097",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_DRONE_098",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_DRONE_099",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_DRONE_100",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 329,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_DRONE_101",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_DRONE_102",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_DRONE_103",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_DRONE_104",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_105",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_DRONE_106",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_DRONE_107",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_108",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_DRONE_109",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 327,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_DRONE_110",
+   "frames_in_video": 325,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 325
+  },
+  {
+   "clip": "V_DRONE_111",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_DRONE_112",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_DRONE_113",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_DRONE_114",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_HELICOPTER_001",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_HELICOPTER_002",
+   "frames_in_video": 305,
+   "frames_written": 102,
+   "label_entries": 305,
+   "label_mismatch": false,
+   "declared_frames": 305
+  },
+  {
+   "clip": "V_HELICOPTER_003",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_HELICOPTER_004",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_HELICOPTER_005",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_HELICOPTER_006",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_HELICOPTER_007",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_HELICOPTER_008",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_HELICOPTER_009",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_HELICOPTER_010",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_HELICOPTER_011",
+   "frames_in_video": 309,
+   "frames_written": 103,
+   "label_entries": 309,
+   "label_mismatch": false,
+   "declared_frames": 309
+  },
+  {
+   "clip": "V_HELICOPTER_012",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_013",
+   "frames_in_video": 300,
+   "frames_written": 100,
+   "label_entries": 300,
+   "label_mismatch": false,
+   "declared_frames": 300
+  },
+  {
+   "clip": "V_HELICOPTER_014",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_HELICOPTER_015",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_016",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_HELICOPTER_017",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_018",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_HELICOPTER_019",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_HELICOPTER_020",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_HELICOPTER_021",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_022",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_HELICOPTER_023",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_024",
+   "frames_in_video": 302,
+   "frames_written": 101,
+   "label_entries": 302,
+   "label_mismatch": false,
+   "declared_frames": 302
+  },
+  {
+   "clip": "V_HELICOPTER_025",
+   "frames_in_video": 303,
+   "frames_written": 101,
+   "label_entries": 303,
+   "label_mismatch": false,
+   "declared_frames": 303
+  },
+  {
+   "clip": "V_HELICOPTER_026",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_027",
+   "frames_in_video": 328,
+   "frames_written": 110,
+   "label_entries": 328,
+   "label_mismatch": false,
+   "declared_frames": 328
+  },
+  {
+   "clip": "V_HELICOPTER_028",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_HELICOPTER_029",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "V_HELICOPTER_030",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_HELICOPTER_031",
+   "frames_in_video": 304,
+   "frames_written": 102,
+   "label_entries": 304,
+   "label_mismatch": false,
+   "declared_frames": 304
+  },
+  {
+   "clip": "V_HELICOPTER_032",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  },
+  {
+   "clip": "V_HELICOPTER_033",
+   "frames_in_video": 306,
+   "frames_written": 102,
+   "label_entries": 306,
+   "label_mismatch": false,
+   "declared_frames": 306
+  },
+  {
+   "clip": "V_HELICOPTER_034",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "V_HELICOPTER_035",
+   "frames_in_video": 320,
+   "frames_written": 107,
+   "label_entries": 320,
+   "label_mismatch": false,
+   "declared_frames": 320
+  },
+  {
+   "clip": "V_HELICOPTER_036",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "V_HELICOPTER_037",
+   "frames_in_video": 319,
+   "frames_written": 107,
+   "label_entries": 319,
+   "label_mismatch": false,
+   "declared_frames": 319
+  },
+  {
+   "clip": "V_HELICOPTER_038",
+   "frames_in_video": 317,
+   "frames_written": 106,
+   "label_entries": 317,
+   "label_mismatch": false,
+   "declared_frames": 317
+  },
+  {
+   "clip": "V_HELICOPTER_039",
+   "frames_in_video": 308,
+   "frames_written": 103,
+   "label_entries": 308,
+   "label_mismatch": false,
+   "declared_frames": 308
+  },
+  {
+   "clip": "V_HELICOPTER_040",
+   "frames_in_video": 316,
+   "frames_written": 106,
+   "label_entries": 97,
+   "label_mismatch": true,
+   "declared_frames": 316
+  },
+  {
+   "clip": "V_HELICOPTER_041",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_HELICOPTER_042",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_HELICOPTER_043",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_HELICOPTER_044",
+   "frames_in_video": 323,
+   "frames_written": 108,
+   "label_entries": 323,
+   "label_mismatch": false,
+   "declared_frames": 323
+  },
+  {
+   "clip": "V_HELICOPTER_045",
+   "frames_in_video": 315,
+   "frames_written": 105,
+   "label_entries": 315,
+   "label_mismatch": false,
+   "declared_frames": 315
+  },
+  {
+   "clip": "V_HELICOPTER_046",
+   "frames_in_video": 311,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 311
+  },
+  {
+   "clip": "V_HELICOPTER_047",
+   "frames_in_video": 321,
+   "frames_written": 107,
+   "label_entries": 321,
+   "label_mismatch": false,
+   "declared_frames": 321
+  },
+  {
+   "clip": "V_HELICOPTER_048",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_HELICOPTER_049",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_HELICOPTER_050",
+   "frames_in_video": 318,
+   "frames_written": 106,
+   "label_entries": 318,
+   "label_mismatch": false,
+   "declared_frames": 318
+  },
+  {
+   "clip": "V_HELICOPTER_051",
+   "frames_in_video": 310,
+   "frames_written": 104,
+   "label_entries": 310,
+   "label_mismatch": false,
+   "declared_frames": 310
+  },
+  {
+   "clip": "V_HELICOPTER_052",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_HELICOPTER_053",
+   "frames_in_video": 322,
+   "frames_written": 108,
+   "label_entries": 322,
+   "label_mismatch": false,
+   "declared_frames": 322
+  },
+  {
+   "clip": "V_HELICOPTER_054",
+   "frames_in_video": 314,
+   "frames_written": 105,
+   "label_entries": 314,
+   "label_mismatch": false,
+   "declared_frames": 314
+  },
+  {
+   "clip": "V_HELICOPTER_055",
+   "frames_in_video": 301,
+   "frames_written": 101,
+   "label_entries": 301,
+   "label_mismatch": false,
+   "declared_frames": 301
+  },
+  {
+   "clip": "V_HELICOPTER_056",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 312,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_HELICOPTER_057",
+   "frames_in_video": 324,
+   "frames_written": 108,
+   "label_entries": 324,
+   "label_mismatch": false,
+   "declared_frames": 324
+  },
+  {
+   "clip": "V_HELICOPTER_058",
+   "frames_in_video": 312,
+   "frames_written": 104,
+   "label_entries": 311,
+   "label_mismatch": false,
+   "declared_frames": 312
+  },
+  {
+   "clip": "V_HELICOPTER_059",
+   "frames_in_video": 313,
+   "frames_written": 105,
+   "label_entries": 313,
+   "label_mismatch": false,
+   "declared_frames": 313
+  },
+  {
+   "clip": "V_HELICOPTER_060",
+   "frames_in_video": 326,
+   "frames_written": 109,
+   "label_entries": 326,
+   "label_mismatch": false,
+   "declared_frames": 326
+  },
+  {
+   "clip": "V_HELICOPTER_061",
+   "frames_in_video": 307,
+   "frames_written": 103,
+   "label_entries": 307,
+   "label_mismatch": false,
+   "declared_frames": 307
+  }
+ ]
+}

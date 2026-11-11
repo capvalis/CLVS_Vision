@@ -1,0 +1,2026 @@
+[
+  {
+    "name": "FUSAR-Ship / FUSAR-Ship1.0",
+    "year": 2020,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general maritime ship and non-ship SAR chips",
+    "modality": "Gaofen-3 SAR with AIS-matched ship subset",
+    "unit": "Chips in journal-hosted FUSAR-Ship1.0",
+    "count": 16144,
+    "count_note": "Portal: 16,144 total = 6,252 AIS-matched ship + 2,045 strong ship-like false-alarm + 1,461 bridge/coastline + 1,010 coastal land/island + 1,967 complex wave clutter + 1,785 ordinary sea + 1,624 land chips. Paper says more than 5,000 ship chips, not total dataset size. Portal labelled 2022 issue 1; paper published 10 March 2020.",
+    "classes": "Extensible hierarchy: 15 primary ship categories and 98 subcategories plus non-ship categories. Taxonomy-node count does not establish 98 populated/balanced classes.",
+    "annotations": "Fixed 512 x 512 chips with hierarchical class and AIS-associated ship information. Portal describes ship-centred crop construction. Exhaustive full-scene boxes/masks not verified.",
+    "features": "126 original Gaofen-3 scenes; UFS mode, DH/DV; portal reports 1.124 m x 1.728 m resolution. Sea, land, coast, river, island and explicit clutter/false-alarm categories.",
+    "provenance": "Fudan University electromagnetic-waves laboratory and Shanghai Gaofen Data/Application Center. Hou, Ao, Song, Lai, Wang and Xu; Science China Information Sciences 63,140303; published 10 March 2020; DOI 10.1007/s11432-019-2772-5.",
+    "quality": "Exact category totals, sensor/crop metadata, scene count, AIS-associated positives and explicit non-ships are documented. Separate guide states ownership, access and permitted use.",
+    "limits": "Only 6,252 of 16,144 chips are AIS-matched ships. Exact class occupancy, AIS match errors, unique-vessel count, acquisition dates and split independence unverified. Taxonomy size is not class-balance evidence.",
+    "splits": "No universal train/validation/test split verified in portal/use guide.",
+    "access": "Guide: initial registration/email verification; Chinese workflow uses WeChat, English-site workflow may use email verification. Current portal exposes verification/download UI. No registration/archive download performed.",
+    "license": "Primary guide: Fudan laboratory ownership; free teaching/research use with citation or acknowledgement; unauthorized commercial use prohibited, commercial requests to journal editorial office. Custom use policy, not a verified CC licence.",
+    "semantics": "Marine-object/ship taxonomy and AIS-matched type, with non-ship clutter classes; no hostility or military-affiliation labels.",
+    "sources": [
+      {
+        "title": "Journal of Radars primary release portal",
+        "url": "https://radars.ac.cn/web/data/getData?dataType=FUSAR"
+      },
+      {
+        "title": "Publisher abstract and publication history",
+        "url": "https://link.springer.com/article/10.1007/s11432-019-2772-5"
+      },
+      {
+        "title": "Paper DOI",
+        "url": "https://doi.org/10.1007/s11432-019-2772-5"
+      },
+      {
+        "title": "Primary dataset use guide",
+        "url": "https://radars.ac.cn/fileLDXB/cms/news/info/2022/04/1dfced94b3d14d989a9fda322ab143f6/FUSAR-Ship%E6%95%B0%E6%8D%AE%E9%9B%86%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.pdf"
+      }
+    ],
+    "id": "D01",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "HRSID",
+    "year": 2020,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general maritime SAR detection and segmentation",
+    "modality": "High-resolution measured spaceborne SAR chips",
+    "unit": "Images in original release",
+    "count": 5604,
+    "count_note": "Official README: 5,604 images / 16,951 ship instances. SARDet reports 16,969 instances in its HRSID contribution, an unresolved 18-instance difference. Later supplemental negatives are separate.",
+    "classes": "One object category: ship",
+    "annotations": "Ship detection, instance segmentation and semantic segmentation; COCO-based construction and public annotations directory. Updated package adds inshore/offshore annotation.",
+    "features": "Official README: 0.5 m,1 m,3 m resolutions; varied polarization, sea conditions, sea areas and ports. SARDet Table 2 names Sentinel-1B, TerraSAR-X and TanDEM-X. Exact original per-sensor/source-scene counts unverified.",
+    "provenance": "Wei, Zeng, Qu, Wang, Su and Shi, HRSID: A High-Resolution SAR Images Dataset for Ship Detection and Instance Segmentation, IEEE Access 8 (2020),120234-120254; DOI 10.1109/ACCESS.2020.3005861. Publication year verified; exact day not established here.",
+    "quality": "Dense instance/semantic annotation, multiple resolutions and explicit high-fidelity PNG versus JPG options. Official project separately supplies 400 pure-background images and an ALOS-2 test image.",
+    "limits": "Updated official scene proportions: 18.4% inshore / 81.6% offshore. JPG/PNG and supplemental packages require version distinction. Source/aggregate instance counts differ; temporal coverage, source-scene separation and annotation error rates not audited.",
+    "splits": "No universal split verified from reviewed source README. SARDet contribution uses 3,642/981/981 images train/val/test; common source train/test ratios not asserted from memory.",
+    "access": "Official repository lists Google Drive/Baidu packages, revised context annotations and supplemental background/test imagery. Archives not downloaded.",
+    "license": "Official repository LICENSE is GNU GPL v3. IEEE article separately CC BY 4.0 in publisher-deposited metadata. Scope over satellite imagery/downloaded packages not independently adjudicated.",
+    "semantics": "Ship geometry and limited scene context; no affiliation/threat labels.",
+    "sources": [
+      {
+        "title": "Official HRSID repository/README",
+        "url": "https://github.com/chaozhong2010/HRSID"
+      },
+      {
+        "title": "Original paper DOI",
+        "url": "https://doi.org/10.1109/ACCESS.2020.3005861"
+      },
+      {
+        "title": "Publisher-deposited Crossref date/article-rights metadata",
+        "url": "https://api.crossref.org/works/10.1109/ACCESS.2020.3005861"
+      },
+      {
+        "title": "Official GPL v3 licence",
+        "url": "https://raw.githubusercontent.com/chaozhong2010/HRSID/master/LICENSE"
+      },
+      {
+        "title": "SARDet Tables 1-2, derivative counts/sensors",
+        "url": "https://arxiv.org/html/2403.06534v3"
+      }
+    ],
+    "id": "D02",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "MSTAR",
+    "year": null,
+    "group": "SAR imagery",
+    "scope": "Military-origin public SAR benchmark archive",
+    "modality": "Measured airborne X-band SAR; target chips and separate clutter scenes",
+    "unit": "Archive/collection; no unified chip count verified",
+    "count": null,
+    "count_note": "Official overview: September 1995 collection has 13 target types / 20 actual targets; November 1996 has 15 types / 27 actual targets. These are collection counts, not one standardized classification split. Official clutter page separately reports 100 full-scene images. A later comparison reports a 5,950-image, 10-class benchmark, not the complete archive.",
+    "classes": "Collection-dependent. Official September public-target page lists T-72, BMP2, BTR-70 and SLICY; other subcollections and common ten-class subsets differ.",
+    "annotations": "Target class/identity and acquisition metadata; replicate identities. Full-archive bounding-box or mask truth was not verified.",
+    "features": "Official target page documents one-foot-resolution spotlight SAR, full-aspect coverage for listed targets, and strip-map collection for clutter.",
+    "provenance": "Sandia National Laboratory platform at Redstone Arsenal, Huntsville, Alabama; DARPA/AFRL MSTAR program. Official overview dates collections to September 1995 and November 1996. No single publication/release date verified; year intentionally null.",
+    "quality": "Official collector, acquisition context, replicate identities and separate target/clutter/variant/mixed-target subcollections are documented.",
+    "limits": "Archive and common ten-class benchmark are not interchangeable. SAMPLE Section 1 warns that MSTAR evaluations may share backgrounds, radar parameters, weather and articulation and overfit that operating-condition space. Full inventory and a universal split were not verified.",
+    "splits": "Multiple research protocols; no universal archive split asserted. Official target acquisition-angle groups are not themselves one complete train/test protocol.",
+    "access": "Official overview says immediately downloadable. Linked Public Data Downloads requires a public-download or VDL account. No account created; no archive downloaded.",
+    "license": "Reviewed official pages establish public access but no standardized dataset licence. Public availability does not establish unrestricted reuse.",
+    "semantics": "Historical vehicle/engineering-target types and acquisition metadata; no affiliation, combatant status, intent or current-location labels.",
+    "sources": [
+      {
+        "title": "AFRL SDMS MSTAR overview (primary)",
+        "url": "https://www.sdms.afrl.af.mil/index.php?collection=mstar"
+      },
+      {
+        "title": "AFRL public targets (primary)",
+        "url": "https://www.sdms.afrl.af.mil/index.php?collection=mstar&page=targets"
+      },
+      {
+        "title": "AFRL clutter (primary)",
+        "url": "https://www.sdms.afrl.af.mil/index.php?collection=mstar&page=clutter"
+      },
+      {
+        "title": "AFRL download access",
+        "url": "https://www.sdms.afrl.af.mil/index.php?collection=registration"
+      },
+      {
+        "title": "SAMPLE author manuscript Section 1, MSTAR limitations",
+        "url": "https://raw.githubusercontent.com/benjaminlewis-afrl/SAMPLE_dataset_public/master/sample_public.pdf"
+      },
+      {
+        "title": "SAR-AIRcraft Table 1 (secondary MSTAR subset count)",
+        "url": "https://radars.ac.cn/article/doi/10.12000/JR23043"
+      }
+    ],
+    "id": "D03",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "OpenSARShip (original release)",
+    "year": 2018,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general maritime SAR interpretation",
+    "modality": "Sentinel-1 SAR ship chips integrated with AIS messages",
+    "unit": "Ship chips in original paper",
+    "count": 11346,
+    "count_note": "Original abstract: 11,346 SAR ship chips integrated with AIS. Original paper January 2018; DOI registered 2017. OpenSARShip 2.0 is a separate 2017 conference release; its count is not merged.",
+    "classes": "17 categories reported by SAR-AIRcraft Table 1 (secondary comparison); exact original taxonomy/occupancy not independently recovered.",
+    "annotations": "Chip-level ship/AIS-associated information. Original abstract verifies AIS integration; exact schema and box/mask availability were not checked.",
+    "features": "Sentinel-1 specificity; official portal lists original and uint8 packages. Exact GRD/SLC composition, polarization, chip dimensions and source-scene count remain unverified.",
+    "provenance": "Huang and coauthors, OpenSARShip: A Dataset Dedicated to Sentinel-1 Ship Interpretation, IEEE JSTARS 11(1),195-208, January 2018; DOI 10.1109/JSTARS.2017.2755672. SJTU institutional OpenSAR hosts data. Original author abstract retrieved via OpenAlex index because IEEE returned an empty body.",
+    "quality": "Author abstract verifies SAR/AIS integration and public-benchmark construction. Institutional portal provides dataset links and original/2.0 citations; no independent label-accuracy claim.",
+    "limits": "Original/2.0 and original/uint8 packages are distinct. AIS match error, taxonomy occupancy, temporal/geographic distribution and source-scene independence remain audit questions. Chips are not unique vessels or independent scenes.",
+    "splits": "No universal split verified from accessible original documentation.",
+    "access": "SJTU Data & Codes lists OpenSARShip_1, OpenSARShip_2, OpenSARShip_original_zip, OpenSARShip_uint8; no account gate visible on page. Archives not attempted; suffixes not assumed to identify publication versions.",
+    "license": "Institutional portal requests citation; no explicit dataset reuse licence located. IEEE article rights are not dataset-use terms.",
+    "semantics": "AIS-associated reported ship type and matched observations; no ownership, military affiliation or intent ground truth.",
+    "sources": [
+      {
+        "title": "SJTU OpenSAR portal (primary)",
+        "url": "https://opensar.sjtu.edu.cn/"
+      },
+      {
+        "title": "SJTU Data & Codes (primary)",
+        "url": "https://opensar.sjtu.edu.cn/DataAndCodes.html"
+      },
+      {
+        "title": "Original paper DOI",
+        "url": "https://doi.org/10.1109/JSTARS.2017.2755672"
+      },
+      {
+        "title": "Publisher-deposited Crossref metadata",
+        "url": "https://api.crossref.org/works/10.1109/JSTARS.2017.2755672"
+      },
+      {
+        "title": "Original author abstract indexed by OpenAlex (secondary retrieval)",
+        "url": "https://api.openalex.org/works/https://doi.org/10.1109/JSTARS.2017.2755672"
+      },
+      {
+        "title": "Separate OpenSARShip 2.0 paper",
+        "url": "https://doi.org/10.1109/BIGSARDATA.2017.8124929"
+      },
+      {
+        "title": "SAR-AIRcraft Table 1 (secondary taxonomy comparison)",
+        "url": "https://radars.ac.cn/article/doi/10.12000/JR23043"
+      }
+    ],
+    "id": "D04",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SAMPLE",
+    "year": 2019,
+    "group": "SAR imagery",
+    "scope": "Military-origin paired measured/synthetic SAR chips",
+    "modality": "MSTAR-derived measured SAR paired with simulated SAR; complex MAT and magnitude PNG products",
+    "unit": "Measured/synthetic chip pairs in current public Git tree",
+    "count": 1345,
+    "count_note": "Untruncated official Git tree on 2026-11-10 lists 1,345 real MAT + 1,345 synth MAT files = 2,690 complex images (tree SHA 1bae4156afcba7ad9c9f2eb743ed20675ed14fb1). Paper Table 5 instead declares 1,366 + 1,366 = 2,732 images. Cause unresolved. Commonly repeated 1,367 was not verified. PNG normalizations are alternative representations, not new acquisitions.",
+    "classes": "10: 2S1, BMP2, BTR70, M1, M2, M35, M548, M60, T72, ZSU23-4. This is not the usual MSTAR ten-class list.",
+    "annotations": "Chip class, measured/synthetic pairing and acquisition/image metadata. Paper Table 4: azimuth, elevation, polarization, range/cross-range resolution, target_name; official verify.py documents source_mstar_file and alignment/image fields.",
+    "features": "128 x 128 complex arrays; decibel and quarter-power magnitude PNG variants. Synthetic imagery matched to historical measured geometry and checked CAD configurations.",
+    "provenance": "AFRL Sensors Directorate and Wright State University. MSTAR measurements paired with electromagnetic simulations based on CAD models checked against historical photographs/notes. SPIE paper published 14 May 2019; DOI 10.1117/12.2523460.",
+    "quality": "Explicit pairing, complex products, source metadata, documented CAD truthing and public composition-check script support traceability.",
+    "limits": "Selection restricted to vehicles with satisfactory CAD models and narrow geometry/flight coverage. Public subset: 10-80 degrees azimuth and 14-17 degrees elevation (Section 4.1). Synthetic background speckle not fully matched to measured clutter (Section 2.2). Manifest/paper count conflict; filename inventory only, no image-content audit.",
+    "splits": "Several paper protocols, not one universal split. Current per-class real MAT counts in listed class order: 174,107,92,129,128,129,128,176,108,174; synth count equals real for each at filename level.",
+    "access": "Official GitHub publicly lists MAT/PNG files, README and paper. Original paper says contact authors; current repository provides direct public access. Dataset files were not downloaded.",
+    "license": "README: Distribution A, Approved for public release, Distribution unlimited. Paper PA approval 88ABW-2019-1483; dataset 88ABW-2019-1300. No standalone standardized licence at repository root; distribution statement is not converted into a CC licence.",
+    "semantics": "Historical vehicle-type labels and measured/synthetic correspondence; no threat, affiliation or activity labels.",
+    "sources": [
+      {
+        "title": "Official SAMPLE repository/README",
+        "url": "https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public"
+      },
+      {
+        "title": "SAMPLE paper DOI/publication date",
+        "url": "https://doi.org/10.1117/12.2523460"
+      },
+      {
+        "title": "Author manuscript, Tables 1,4,5 and Sections 2,4.1",
+        "url": "https://raw.githubusercontent.com/benjaminlewis-afrl/SAMPLE_dataset_public/master/sample_public.pdf"
+      },
+      {
+        "title": "Immutable official tree used for filename inventory",
+        "url": "https://api.github.com/repos/benjaminlewis-afrl/SAMPLE_dataset_public/git/trees/1bae4156afcba7ad9c9f2eb743ed20675ed14fb1?recursive=1"
+      },
+      {
+        "title": "Official composition script, read only",
+        "url": "https://raw.githubusercontent.com/benjaminlewis-afrl/SAMPLE_dataset_public/master/verify.py"
+      }
+    ],
+    "id": "D05",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SAR-AIRcraft-1.0",
+    "year": 2023,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general SAR aircraft detection and civil-type recognition",
+    "modality": "Gaofen-3 spaceborne SAR aircraft imagery",
+    "unit": "Images in original source release",
+    "count": 4368,
+    "count_note": "Primary abstract: 4,368 images / 16,463 aircraft instances. Table 1 image-size range 800-1500 pixels. SARDet derivative: 18,888 patches / 38,475 annotations, not the source count.",
+    "classes": "7: A220, A320/321, A330, ARJ21, Boeing737, Boeing787, other. Table 3 totals respectively 3,730;1,771;309;1,187;2,557;2,645;4,264.",
+    "annotations": "Instance-localization boxes and category labels for detection/recognition. Detailed annotation-file schema not retrieved. Method's scattering keypoints are not assumed to be manually annotated dataset truth.",
+    "features": "Gaofen-3 and seven classes verified by primary abstract. SARDet source table reports 1 m, C-band, uni-polar; those sensor details are secondary evidence here.",
+    "provenance": "Wang Zhirui, Kang Yuzhuo, Zeng Xuan, Wang Yuelei, Zhang Ting and Sun Xian; AIR/CAS and UCAS. Journal of Radars 12(4),906-922; online 17 July 2023, issue publication 28 August 2023; DOI 10.12000/JR23043.",
+    "quality": "Primary bilingual paper publishes source counts, class counts, train/test instance counts, labelled examples and explicit detection/recognition tasks.",
+    "limits": "Class imbalance: A330 309 vs other 4,264. Other is heterogeneous. Paper documents discrete scattering and strong background interference. Unique-airframe count, source-scene independence, acquisition dates and direct dataset-use terms remain audit questions.",
+    "splits": "Table 3: 13,513 train / 2,950 test instances. These are object counts, not image counts. Separate validation split unverified.",
+    "access": "Paper states publicly released dataset; journal SAR catalogue returned CAPTCHA in one read. Specific paper page was readable. Archive access not completed.",
+    "license": "SARDet Table 2 reports dataset CC BY-NC 4.0; direct dataset-specific licence not retrieved. Primary article dc.rights metadata says CC BY 3.0 for the article, a separate matter.",
+    "semantics": "Named civil aircraft types plus other and image-local geometry; not military affiliation, operator or threat labels.",
+    "sources": [
+      {
+        "title": "Primary bilingual paper, Tables 1/3 and publication dates",
+        "url": "https://radars.ac.cn/article/doi/10.12000/JR23043"
+      },
+      {
+        "title": "Paper DOI",
+        "url": "https://doi.org/10.12000/JR23043"
+      },
+      {
+        "title": "Journal SAR catalogue, CAPTCHA observed",
+        "url": "https://radars.ac.cn/web/data/getData?dataType=SARDataset"
+      },
+      {
+        "title": "SARDet Tables 1-2/Appendix A.2, secondary metadata and derivative counts",
+        "url": "https://arxiv.org/html/2403.06534v3"
+      }
+    ],
+    "id": "D06",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SARDet-100K",
+    "year": 2024,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general aggregate SAR detection benchmark; mixed source provenance",
+    "modality": "Standardized SAR intensity imagery from satellite and airborne/synthetic source datasets",
+    "unit": "Images/patches in derivative aggregate benchmark",
+    "count": 116598,
+    "count_note": "Official current README and paper v3: 116,598 images/patches / 245,653 object annotations from 10 source datasets. Not newly collected scenes. Do not sum aggregate and constituent counts as independent data.",
+    "classes": "6 labels: Aircraft, Ship, Car, Bridge, Tank, Harbor. Tank is not automatically armored vehicle: primary MSAR explicitly labels oil tanks. Meaning of other Tank contributor OGSOD not independently verified.",
+    "annotations": "Source annotations unified into COCO object-detection format. README describes separate RSAR as an approximate rotation-labelled version; SARDet-100K is not silently equated with RSAR.",
+    "features": "Sources: AIR_SARShip 1/2, HRSID, MSAR, SADD, SAR-AIRcraft, ShipDataset, SSDD, OGSOD, SIVED. Mixed resolution/bands/polarization. Appendix documents overlapping crops of larger-image sources, explaining count/dependence changes.",
+    "provenance": "Yuxuan Li and coauthors; initial arXiv 11 March 2024, NeurIPS 2024 spotlight; current v3 9 August 2025. Authors collect/standardize existing datasets; not one new acquisition campaign.",
+    "quality": "Public source tables, per-source image/instance counts, annotation-format standardization, split-conversion rules, repository licence and download links.",
+    "limits": "Derivative overlap with source benchmarks and overlapping crops require careful interpretation; no independent duplicate/source-scene audit. HRSID contribution 16,969 vs source 16,951; SSDD 2,587 vs original commonly quoted 2,456. README labels links Train/Val/Test but also says only Train/Val released. Mixed upstream licences and unspecified entries remain unresolved.",
+    "splits": "Images train/val/test 94,493/10,492/11,613; annotations 198,747/22,703/24,023. Appendix: retain existing source splits, otherwise 8:1:1. Recorded as benchmark documentation, not training guidance.",
+    "access": "Official GitHub lists Baidu and Kaggle datasets. Current test-release status contradictory in README; archive download and permissions not checked.",
+    "license": "Repository LICENSE: CC BY-NC 4.0. Paper/arXiv: CC BY-NC-SA 4.0. Source table includes GPL, Apache 2.0, CC BY-NC 4.0 and unspecified entries; no assumption all upstream rights are harmonized.",
+    "semantics": "Broad object labels, not military affiliation/threat/intent. Upstream oil-storage tanks must not be reinterpreted as armored combat vehicles solely from the English label Tank.",
+    "sources": [
+      {
+        "title": "Official repository/statistics/access",
+        "url": "https://github.com/zcablii/SARDet_100K"
+      },
+      {
+        "title": "Paper version and submission history",
+        "url": "https://arxiv.org/abs/2403.06534"
+      },
+      {
+        "title": "Current paper v3, Tables 1-2/Appendix A.2",
+        "url": "https://arxiv.org/html/2403.06534v3"
+      },
+      {
+        "title": "Official CC BY-NC 4.0 repository licence",
+        "url": "https://raw.githubusercontent.com/zcablii/SARDet_100K/main/LICENSE"
+      },
+      {
+        "title": "Primary MSAR portal: oil-tank semantics",
+        "url": "https://radars.ac.cn/web/data/getData?dataType=MSAR"
+      }
+    ],
+    "id": "D07",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SSDD / Official SSDD",
+    "year": 2021,
+    "group": "SAR imagery",
+    "scope": "Adjacent/general maritime SAR detection and segmentation",
+    "modality": "Measured spaceborne SAR from multiple sensors",
+    "unit": "Images in source dataset",
+    "count": 1160,
+    "count_note": "1,160 images. Original commonly cited version: 2,456 ship instances (also SAR-AIRcraft Table 1). SARDet standardized contribution: 2,587 instances. Different release/annotation contexts; not reconciled. Original SSDD appeared in 2017; official corrected/expanded paper published 15 September 2021.",
+    "classes": "One object category: ship",
+    "annotations": "2021 official versions: horizontal boxes (BBox-SSDD), rotated boxes (RBox-SSDD), pixel-level polygon segmentation (PSeg-SSDD). Paper describes VOC/COCO format variants and inshore/offshore analysis.",
+    "features": "Paper reports RadarSat-2, TerraSAR-X, Sentinel-1; approximately 1-15 m resolution; HH,VV,VH,HV; varied sea conditions and coastal/offshore scenes.",
+    "provenance": "Tianwen Zhang and coauthors revisit initial SSDD, correct annotations and standardize usage. Remote Sensing 13(18),3690, 15 September 2021, DOI 10.3390/rs13183690.",
+    "quality": "Official release explicitly repairs missing/false labels and loose boxes and adds rotated/polygon annotations. Published size, orientation and inshore/offshore analyses.",
+    "limits": "Paper documents small scale, original label errors and inconsistent historical splits. Source-vs-aggregate instance counts differ. Source-scene independence/geographic leakage and actual error rates were not independently audited.",
+    "splits": "2021 paper standardizes a partition and notes varying historical ratios. SARDet derivative uses 928/116/116 images train/val/test, which is a different benchmark context.",
+    "access": "Official GitHub lists Google Drive/Baidu downloads. Links observed; archive content and permissions not tested.",
+    "license": "Official-SSDD repository LICENSE is Apache 2.0. Article separately CC BY 4.0. Scope over third-party source satellite imagery not independently legally verified.",
+    "semantics": "Ship-instance geometry; no nationality, military status, identity, intent or payload labels.",
+    "sources": [
+      {
+        "title": "Official SSDD repository/download links",
+        "url": "https://github.com/TianwenZhang0825/Official-SSDD"
+      },
+      {
+        "title": "Official 2021 paper DOI",
+        "url": "https://doi.org/10.3390/rs13183690"
+      },
+      {
+        "title": "Publisher-hosted paper, read in memory",
+        "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-13-03690/article_deploy/remotesensing-13-03690.pdf"
+      },
+      {
+        "title": "Official Apache 2.0 licence",
+        "url": "https://raw.githubusercontent.com/TianwenZhang0825/Official-SSDD/main/LICENSE"
+      },
+      {
+        "title": "SAR-AIRcraft Table 1 (secondary original SSDD count)",
+        "url": "https://radars.ac.cn/article/doi/10.12000/JR23043"
+      },
+      {
+        "title": "SARDet Table 1, derivative SSDD count",
+        "url": "https://arxiv.org/html/2403.06534v3"
+      }
+    ],
+    "id": "D08",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DIOR",
+    "year": 2020,
+    "group": "Overhead optical imagery",
+    "scope": "General object detection in optical remote sensing images",
+    "modality": "Optical remote sensing images",
+    "unit": "images",
+    "count": 23463,
+    "count_note": "Current creator page: 23,463 images / 192,518 object instances. Older comparison tables sometimes state 192,472; do not silently mix those annotation totals.",
+    "classes": "20 broad object categories; aircraft/ship classes do not establish military subtype labels.",
+    "annotations": "Horizontal bounding boxes.",
+    "features": "Multi-category full-image detection benchmark.",
+    "provenance": "Ke Li, Gang Wan, Gong Cheng, Liqiu Meng and Junwei Han, ISPRS Journal of Photogrammetry and Remote Sensing 159, 296–307 (2020); creator Gong Cheng's dataset page.",
+    "quality": "Creator-hosted current counts, annotation format, licence and download links.",
+    "limits": "A broad detection taxonomy does not provide fine military model labels. Source-location and temporal independence, current manifest count and class-level errors were not audited.",
+    "splits": "Not verified from the current creator page inspected.",
+    "access": "Google Drive/Baidu links on creator page; archives untested.",
+    "license": "Creator page: CC BY-NC 4.0.",
+    "semantics": "Visible category and horizontal position/extent; no scene captions or status labels.",
+    "sources": [
+      {
+        "title": "Creator DIOR/DIOR-R data and licence page",
+        "url": "https://gcheng-nwpu.github.io/"
+      },
+      {
+        "title": "Example of different historical instance count, FAIR1M table",
+        "url": "https://arxiv.org/html/2103.05569"
+      }
+    ],
+    "id": "D09",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DIOR-R",
+    "year": 2022,
+    "group": "Overhead optical imagery",
+    "scope": "General object detection; oriented reannotation of DIOR",
+    "modality": "Same optical images as DIOR",
+    "unit": "images",
+    "count": 23463,
+    "count_note": "Shares DIOR's 23,463 images. The creator page does not separately state a DIOR-R instance total; do not assume identity of annotation counts.",
+    "classes": "Same broad DIOR taxonomy (20 categories).",
+    "annotations": "Oriented bounding boxes, replacing/augmenting DIOR's horizontal representation.",
+    "features": "Orientation-aware ground-truth geometry on an existing image set.",
+    "provenance": "Gong Cheng et al., Anchor-free Oriented Proposal Generator for Object Detection, IEEE TGRS (2022); DIOR creator page.",
+    "quality": "Creator explicitly states that the same imagery is used, clarifying provenance.",
+    "limits": "Not an independent dataset from DIOR; comparing or combining imagery across these names does not add independent observations. Full per-instance manifest not audited.",
+    "splits": "Image correspondence with DIOR documented; file-level split mapping unverified.",
+    "access": "Download links through creator page; archive untested.",
+    "license": "Creator page: CC BY-NC 4.0.",
+    "semantics": "Broad object category and orientation geometry; no new fine-grained military taxonomy.",
+    "sources": [
+      {
+        "title": "Creator DIOR and DIOR-R description",
+        "url": "https://gcheng-nwpu.github.io/"
+      }
+    ],
+    "id": "D10",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DOTA v1.0",
+    "year": 2018,
+    "group": "Overhead optical imagery",
+    "scope": "General remote-sensing objects; aircraft and ship are broad categories",
+    "modality": "Mixed optical RGB and grayscale remote-sensing/aerial images",
+    "unit": "images",
+    "count": 2806,
+    "count_note": "2,806 images; 188,282 object instances; 15 categories.",
+    "classes": "15 broad classes including plane, ship, helicopter, vehicles, harbour, sports facilities and other infrastructure.",
+    "annotations": "Oriented quadrilateral (8-coordinate) boxes; category; difficult flag.",
+    "features": "Large images and wide object scale/orientation variation; aerial and satellite sources.",
+    "provenance": "Gui-Song Xia et al., CVPR 2018; creator DOTA project. Images from Google Earth, GF-2, JL-1 and CycloMedia aerial imagery.",
+    "quality": "Expert aerial-image interpretation; published annotation geometry and category definitions; formal benchmark splits.",
+    "limits": "Mixed sensor provenance; generic plane/ship labels do not encode military subtype or affiliation. Versions reuse images, so totals across releases cannot be added as unique scenes. Upstream Google Earth terms apply.",
+    "splits": "Creator page: approximately 1/2 train, 1/6 validation, 1/3 test.",
+    "access": "Official page provides Google Drive and Baidu links; archive not downloaded.",
+    "license": "Official page: academic purposes only, commercial use prohibited; Google Earth terms also apply.",
+    "semantics": "Object location and broad visible category; no military status or scene narratives.",
+    "sources": [
+      {
+        "title": "Creator version counts",
+        "url": "https://captain-whu.github.io/DOTA/"
+      },
+      {
+        "title": "Source, licence and annotation specification",
+        "url": "https://captain-whu.github.io/DOTA/dataset.html"
+      }
+    ],
+    "id": "D11",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DOTA v1.5",
+    "year": 2019,
+    "group": "Overhead optical imagery",
+    "scope": "General remote-sensing objects, revised annotation coverage",
+    "modality": "Same optical/aerial images as DOTA v1.0",
+    "unit": "images",
+    "count": 2806,
+    "count_note": "Same 2,806 images as v1.0; 403,318 instances and 16 categories, including added extremely small instances (<10 pixels) and container crane.",
+    "classes": "16 broad categories.",
+    "annotations": "Oriented quadrilateral boxes; category; difficult flag.",
+    "features": "Denser annotations and an extra category, rather than a new image collection.",
+    "provenance": "DOTA creator project; CVPR 2019 DOAI challenge release.",
+    "quality": "Creator explicitly documents changes from v1.0 and keeps image split counts constant.",
+    "limits": "Not independent of v1.0. Instance-count growth mainly reflects changed annotation policy. Results across v1.0/v1.5 require identifying the version.",
+    "splits": "Same images and splits as v1.0.",
+    "access": "Official Google Drive/Baidu links published; archive untested.",
+    "license": "Academic only; no commercial use; upstream Google Earth terms.",
+    "semantics": "Broad visible object categories and location; no military subtype labels.",
+    "sources": [
+      {
+        "title": "Creator version counts and differences",
+        "url": "https://captain-whu.github.io/DOTA/"
+      },
+      {
+        "title": "Annotation and use terms",
+        "url": "https://captain-whu.github.io/DOTA/dataset.html"
+      }
+    ],
+    "id": "D12",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DOTA v2.0",
+    "year": 2021,
+    "group": "Overhead optical imagery",
+    "scope": "General aerial object detection benchmark",
+    "modality": "Mixed optical satellite and aerial RGB/grayscale imagery",
+    "unit": "images",
+    "count": 11268,
+    "count_note": "11,268 images; 1,793,658 instances; 18 categories. Includes relabelled earlier images and additional imagery.",
+    "classes": "18 categories; airport and helipad added beyond v1.5.",
+    "annotations": "Oriented quadrilateral boxes; category; difficult flag.",
+    "features": "Larger image set; objects over diverse sizes/orientations; separate test-dev and test-challenge.",
+    "provenance": "Jian Ding et al., Object Detection in Aerial Images: A Large-Scale Benchmark and Challenges (2021); DOTA creator project.",
+    "quality": "Official image and instance totals given for each split; annotation version changes explicitly documented.",
+    "limits": "Not all 11,268 images/labels are freely downloadable training data. Test-dev labels withheld; test-challenge images and labels described as challenge-only. Earlier DOTA imagery is reused and relabelled.",
+    "splits": "Train 1,830 images / 268,627 instances; validation 593 / 81,048; test-dev 2,792 / 353,346; test-challenge 6,053 / 1,090,637.",
+    "access": "Official page publishes extra-image and annotation links; requires earlier v1.0 imagery. Test access restrictions described above; archive untested.",
+    "license": "Academic only; no commercial use; Google Earth source terms apply.",
+    "semantics": "Generic object classes and spatial boxes, not military identity or scene-level reasoning labels.",
+    "sources": [
+      {
+        "title": "Creator counts and split disclosure",
+        "url": "https://captain-whu.github.io/DOTA/"
+      },
+      {
+        "title": "Data source, download and licence terms",
+        "url": "https://captain-whu.github.io/DOTA/dataset.html"
+      }
+    ],
+    "id": "D13",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "FAIR1M (original paper release)",
+    "year": 2022,
+    "group": "Overhead optical imagery",
+    "scope": "General fine-grained transport/infrastructure imagery, including one warship category",
+    "modality": "Gaofen and Google Earth high-resolution optical imagery; 0.3–0.8 m stated spatial resolution",
+    "unit": "images",
+    "count": 15266,
+    "count_note": "2021 arXiv v2 table: 15,266 images and approximately 1.02 million instances; 37 subcategories under 5 broad categories. Journal article appeared in 2022. Later FAIR1M 2.0/challenge totals are separate and were not verified here.",
+    "classes": "Airplanes, ships, vehicles, courts, roads; 37 subcategories. Airplane classes are largely named civil airliners; ship classes include a single warship category and functional civil types.",
+    "annotations": "Oriented rectangular boxes with ordered vertices and direction; additional flags for occlusion/uncertain direction; source geographic/resolution metadata described.",
+    "features": "Multi-source and multi-temporal imagery; fine transport classes and geographic metadata.",
+    "provenance": "Xian Sun et al.; ISPRS Journal of Photogrammetry and Remote Sensing, DOI 10.1016/j.isprsjprs.2021.12.004; original arXiv v2 March 2021; Gaofen challenge/ISPRS benchmark site.",
+    "quality": "Paper documents image cleaning, geometric/radiometric preparation, paired annotation checks, supervisor review and expert review.",
+    "limits": "Sampling from civil airports/harbours/cities and class imbalance are relevant representativeness limits. Image cleaning removes some adverse-quality scenes. The annotation threshold passage specifies 16 pixels but has confusing example wording. Exact manifest and later-release counts not audited.",
+    "splits": "No file-level release split verified; original paper and later challenge releases must be identified separately.",
+    "access": "Paper points to gaofen-challenge.com; current benchmark route rendered a JavaScript shell in HTTP inspection. Account/terms/download process not verified.",
+    "license": "Explicit dataset reuse licence was not verified in the inspected paper or accessible benchmark shell; do not infer a data licence from article access.",
+    "semantics": "Named civil aircraft types, functional vehicle/ship types and broad warship class; not a military equipment identity catalogue.",
+    "sources": [
+      {
+        "title": "Primary full text, original paper version",
+        "url": "https://arxiv.org/html/2103.05569"
+      },
+      {
+        "title": "Journal paper DOI",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2021.12.004"
+      },
+      {
+        "title": "Official benchmark route",
+        "url": "https://www.gaofen-challenge.com/benchmark"
+      }
+    ],
+    "id": "D14",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "FGSC-23",
+    "year": 2021,
+    "group": "Overhead optical imagery",
+    "scope": "Fine-grained ship classification; inspect full taxonomy before assigning a military-only scope",
+    "modality": "High-resolution optical image chips cut from Google Earth and GF-2 scenes",
+    "unit": "instance image chips",
+    "count": 4052,
+    "count_note": "4,052 chips in 23 total categories: 22 ship categories plus one negative/background category. The 23 is not the number of ship types.",
+    "classes": "22 ship categories + 1 negative category.",
+    "annotations": "Human-interpreted chip class; ship aspect ratio; angle between the ship central axis and horizontal image axis.",
+    "features": "Object-centred crops; shape/direction attributes; image-scene and category diversity.",
+    "provenance": "Libo Yao, Xiaohan Zhang, Yafei Lyu, Weiwei Sun, Mengyang Li; Journal of Image and Graphics, 26(10), 2337–2345 (2021), DOI 10.11834/jig.200261.",
+    "quality": "Original bilingual publisher abstract documents exact chip count, negative class, annotation attributes and class imbalance.",
+    "limits": "Classification chips do not provide equivalent evidence to detecting objects in full scenes. Class imbalance is acknowledged. A random within-category split is not evidence of separation by source scene, ship identity, time, or location. Full per-class taxonomy and reuse licence were not established.",
+    "splits": "Paper: approximately 1:4 testing-to-training ratio, random within categories.",
+    "access": "Primary paper is publicly readable; a creator-controlled downloadable archive and current archive accessibility were not verified.",
+    "license": "Dataset-specific reuse licence not found in inspected primary material; article access is not data reuse permission.",
+    "semantics": "Ship identity class plus aspect ratio and direction, with a negative chip class; no scene captions.",
+    "sources": [
+      {
+        "title": "Original publisher article and bilingual abstract",
+        "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.200261/"
+      },
+      {
+        "title": "Paper DOI",
+        "url": "https://doi.org/10.11834/jig.200261"
+      }
+    ],
+    "id": "D15",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "FGSD",
+    "year": 2020,
+    "group": "Overhead optical imagery",
+    "scope": "Mixed military/civilian fine-grained ship dataset with a separate dock class",
+    "modality": "Google Earth optical overhead imagery, including historical imagery; 0.12–1.93 m reported resolution",
+    "unit": "selected labelled images",
+    "count": 2612,
+    "count_note": "2,612 selected/labelled images from 4,736 collected pictures; 5,634 ship instances and separately 1,366 docks. Images 930×930.",
+    "classes": "43 ship classes + Dock; ship hierarchy includes warship, carrier, submarine and civil ship.",
+    "annotations": "Horizontal and rotated boxes, ship orientation, multi-level class labels; source port ID, resolution and Google Earth resolution level.",
+    "features": "17 ports in four countries; historical imagery; fine-grained ship taxonomy plus dock context.",
+    "provenance": "Kaiyan Chen, Ming Wu, Jiaming Liu, Chuang Zhang, Beijing University of Posts and Telecommunications; original arXiv paper 2003.06832 (2020). Also named as a source of ShipRSImageNet.",
+    "quality": "Original full paper provides collection-vs-labelled counts, split counts, annotation definitions and source metadata.",
+    "limits": "Paper says map shifts/spins were used during sample collection, so unique physical observations and split independence need audit. Only selected ports are represented. 43 counts ships, excluding dock; 5,634 also excludes 1,366 docks.",
+    "splits": "Training 1,917 images / 3,964 ships; validation 268 / 590; test 427 / 1,080. These sum to 2,612 images / 5,634 ships.",
+    "access": "Original paper says forthcoming and invites dataset requests by email. Public uptake evidenced by creator ShipRSImageNet reuse; no currently working direct FGSD archive was verified and no email was sent.",
+    "license": "Dataset-specific licence not established. arXiv paper licence does not license source imagery.",
+    "semantics": "Ship identity/type and position/orientation, plus dock geometry; not textual situational understanding.",
+    "sources": [
+      {
+        "title": "Original full paper",
+        "url": "https://arxiv.org/html/2003.06832"
+      },
+      {
+        "title": "Original bibliographic record",
+        "url": "https://arxiv.org/abs/2003.06832"
+      },
+      {
+        "title": "ShipRSImageNet provenance corroboration",
+        "url": "https://github.com/zzndream/ShipRSImageNet"
+      }
+    ],
+    "id": "D16",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "HRSC2016",
+    "year": 2017,
+    "group": "Overhead optical imagery",
+    "scope": "Ship benchmark with hierarchical ship/category/type labels including military-associated classes",
+    "modality": "High-resolution optical satellite/Google Earth overhead imagery",
+    "unit": "images",
+    "count": null,
+    "count_note": "Common later-literature count: 1,070 images / 2,976 ship instances. However FAIR1M's own comparison text says 1,061 images while its table says 1,070. Original accessible abstract gives no total; the discrepancy was not resolved against a release manifest.",
+    "classes": "Three annotation levels: ship, ship category, ship type. Later literature describes 22 ship classes; many detection papers collapse these to one ship class.",
+    "annotations": "Horizontal and rotated boxes; head points for V-shaped bows; sea/land segmentation masks for test images.",
+    "features": "Multiple annotation tasks in one collection; rotated geometry and hierarchical identity labels.",
+    "provenance": "Zikun Liu, Liu Yuan, Lubin Weng, Yiping Yang; ICPRAM 2017, pp. 324–331, DOI 10.5220/0006120603240331. Original creator URL: escience.cn/people/liuzikun/DataSet.html.",
+    "quality": "Original paper abstract precisely documents annotation types and accompanying annotation/development tools.",
+    "limits": "Canonical count/version, licence and current original-host access need verification. Later literature reports images from a small set of ports and 0.4–2 m spatial resolution. Single-class detector results do not establish fine-grained type classification quality.",
+    "splits": "Canonical train/validation/test file lists were not checked; do not conflate HRSC2016 with the later HRSC2016-MS derivative.",
+    "access": "Original author URL timed out; historical Google Sites URL redirected to sign-in. Third-party mirrors exist but their fidelity was not audited.",
+    "license": "Dataset licence not established. SciTePress's CC BY-NC-ND 4.0 notice applies to the article and must not be assumed to license image archives.",
+    "semantics": "Object/type identities, orientation and sea-land masks; no human-authored scene or operational-situation narrative.",
+    "sources": [
+      {
+        "title": "Original publisher record",
+        "url": "https://www.scitepress.org/Link.aspx?doi=10.5220/0006120603240331"
+      },
+      {
+        "title": "Original creator address",
+        "url": "http://www.escience.cn/people/liuzikun/DataSet.html"
+      },
+      {
+        "title": "Count discrepancy in later FAIR1M paper",
+        "url": "https://arxiv.org/html/2103.05569"
+      },
+      {
+        "title": "Separate HRSC2016-MS creator repository",
+        "url": "https://github.com/wmchen/HRSC2016-MS"
+      }
+    ],
+    "id": "D17",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "MAR20",
+    "year": 2023,
+    "group": "Overhead optical imagery",
+    "scope": "Explicit military-aircraft-labelled research benchmark",
+    "modality": "Optical remote sensing images; overhead aircraft appearances",
+    "unit": "images",
+    "count": 3842,
+    "count_note": "3,842 images; 22,341 aircraft instances; 20 military aircraft types. Creator page cites 2022; the published journal record is 2023, volume 27(12), pp. 2688–2696.",
+    "classes": "20 military aircraft types.",
+    "annotations": "Both horizontal bounding boxes and oriented bounding boxes for every instance.",
+    "features": "Fine-grained aircraft type labels with location and orientation geometry.",
+    "provenance": "Wenqi Yu, Gong Cheng, Meijun Wang, Yanqing Yao, Xingxing Xie, Xiwen Yao, Junwei Han; Northwestern Polytechnical University; Journal of Remote Sensing, DOI 10.11834/jrs.20222139.",
+    "quality": "Creator page explicitly provides image/instance/type counts, dual annotation formats, and licence; paper describes within-class appearance variation and similarity across types.",
+    "limits": "Full sensor/source inventory, acquisition dates, geographic split independence and annotation-error rates were not established from accessible primary material. Journal full text is gated. Do not turn 22,341 instances into 22,341 images.",
+    "splits": "Split counts not verified from accessible primary pages.",
+    "access": "Creator page publishes OneDrive and BaiduNetDisk links; archive retrieval was not tested.",
+    "license": "Creator page: research purposes only; CC BY-NC 4.0.",
+    "semantics": "Military aircraft model/type category plus image geometry; no labels for missions, intent, readiness, or scene narratives.",
+    "sources": [
+      {
+        "title": "Creator dataset page",
+        "url": "https://gcheng-nwpu.github.io/"
+      },
+      {
+        "title": "Published journal record",
+        "url": "https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20222139/"
+      },
+      {
+        "title": "Paper DOI",
+        "url": "https://doi.org/10.11834/jrs.20222139"
+      }
+    ],
+    "id": "D18",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "MTARSI (original 2019 deposit)",
+    "year": 2019,
+    "group": "Overhead optical imagery",
+    "scope": "Aircraft classification with explicit military aircraft types and a broad Boeing category",
+    "modality": "Google Earth optical overhead image chips",
+    "unit": "single-aircraft image chips",
+    "count": 9385,
+    "count_note": "9,385 images, manually expanded; 20 types across 36 airports. Each image contains one complete aircraft. This is not a count of independent source scenes.",
+    "classes": "20 aircraft types; granularity is uneven (specific model designations coexist with Boeing).",
+    "annotations": "Image-level aircraft class; seven interpretation specialists labelled the chips. Bounding boxes are not documented in the repository metadata.",
+    "features": "Single-object crops; military and civil-associated aircraft labels; manually expanded imagery.",
+    "provenance": "Zhize Wu, Hefei University; dataset DOI deposit in 2019. Associated paper: A benchmark data set for aircraft type recognition from remote sensing images, Applied Soft Computing (2020), DOI 10.1016/j.asoc.2020.106132.",
+    "quality": "Creator-deposited DOI metadata states the count, provenance, class inventory, one-aircraft-per-image rule, and seven-specialist labelling.",
+    "limits": "Manual expansion means image totals are not independent observations. A 2022 follow-up reports limited complexity/heterogeneity and labelling errors with poor generalization despite very high internal validation scores. No file-level duplicate or split audit performed here.",
+    "splits": "Original split policy was not established from the metadata inspected; distinguish derivatives and augmented siblings.",
+    "access": "Public Zenodo deposit is documented. Zenodo landing/API requests returned 403 in this session; publisher-deposited DataCite DOI metadata was accessible. No archive downloaded.",
+    "license": "Deposit metadata: CC BY 4.0. Google Earth imagery is upstream material; the deposit does not itself establish a separate clearance chain for every source image.",
+    "semantics": "Aircraft type labels on cropped overhead appearances; no textual situation descriptions, activity labels, or current operational status.",
+    "sources": [
+      {
+        "title": "Original version DOI",
+        "url": "https://doi.org/10.5281/zenodo.3464319"
+      },
+      {
+        "title": "Creator-deposited DataCite metadata",
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.3464319"
+      },
+      {
+        "title": "Dataset paper",
+        "url": "https://doi.org/10.1016/j.asoc.2020.106132"
+      },
+      {
+        "title": "Independent quality study, Gao et al. (2022)",
+        "url": "https://doi.org/10.1109/ACCESS.2022.3231327"
+      }
+    ],
+    "id": "D19",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "MTARSI 2 (separate 2021 derivative)",
+    "year": 2021,
+    "group": "Overhead optical imagery",
+    "scope": "Reclassified and augmented derivative of MTARSI",
+    "modality": "Optical overhead aircraft image chips",
+    "unit": "image chips",
+    "count": null,
+    "count_note": "The inspected deposit states 42 classifications but does not state a total image count; do not transfer the original 9,385 count.",
+    "classes": "42 reclassified aircraft categories.",
+    "annotations": "Image-level class labels; no additional annotation geometry established.",
+    "features": "Additional augmentation and reclassification; unequal class frequencies and varying light/view angles explicitly noted.",
+    "provenance": "Richard Rudd-Orthner and Lyudmila Mihaylova, University of Sheffield; 2021 deposit explicitly derived from MTARSI DOI 10.5281/zenodo.3464319.",
+    "quality": "Explicit parent-dataset provenance and an independently identified deposit.",
+    "limits": "Not a new independent source collection. Different class definitions and augmentation make its numbers incompatible with the original release without a manifest audit.",
+    "splits": "Not established from inspected deposit metadata.",
+    "access": "Zenodo deposit documented; DataCite metadata accessible, archive untested.",
+    "license": "CC BY 4.0 in creator-deposited metadata; original imagery provenance remains relevant.",
+    "semantics": "Alternative aircraft image classification taxonomy, not a larger set of independent scene detections.",
+    "sources": [
+      {
+        "title": "Derivative DOI",
+        "url": "https://doi.org/10.5281/zenodo.5044950"
+      },
+      {
+        "title": "Creator-deposited metadata",
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.5044950"
+      }
+    ],
+    "id": "D20",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "MVRSD",
+    "year": null,
+    "group": "Overhead optical imagery",
+    "scope": "Military-labelled collection",
+    "modality": "Google Earth overhead RGB; claimed 0.3 m spatial resolution",
+    "unit": "images",
+    "count": 3000,
+    "count_note": "32,626 instances; 640 x 640 images; also 3 unlabelled large images. Counts are README claims, not archive counts.",
+    "classes": "Military vehicles; detailed class ontology not stated in the inspected README.",
+    "annotations": "Object instances are described; exact annotation geometry and schema not verified.",
+    "features": "More than 40 collection scenarios across three continents are claimed.",
+    "provenance": "Author repository baidongls/MVRSD; Google Earth source imagery.",
+    "quality": "Creator gives image size, spatial resolution, instance count and collection breadth.",
+    "limits": "No annotation review protocol, class distribution, scene-independent split, image-level source manifest or data licence verified. The phrase scenarios describes collection settings and does not establish scenario-level labels.",
+    "splits": "Not documented in inspected README.",
+    "access": "Public README, demo archive listing and Baidu link; actual downloads not tested.",
+    "license": "No dataset licence found in inspected README; original imagery terms also require separate consideration.",
+    "semantics": "Documented vehicle instances; scenario/action annotation ontology not established.",
+    "sources": [
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/baidongls/MVRSD"
+      }
+    ],
+    "id": "D21",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "RarePlanes",
+    "year": 2020,
+    "group": "Overhead optical imagery",
+    "scope": "Aircraft imagery with civil and military role attributes; real and synthetic components",
+    "modality": "Real Maxar WorldView-3 panchromatic, multispectral and pansharpened RGB; synthetic overhead RGB imagery",
+    "unit": "real aircraft instances",
+    "count": 14707,
+    "count_note": "Paper table: 14,707 real aircraft in 253 scenes across 112 locations, 22 countries and 2,142 km²; 629,551 synthetic annotations in 50,000 images. Site/abstract round to 14,700 and ~630,000. Synthetic images are 1,920×1,080; real products include 512×512 tiles.",
+    "classes": "10 attributes / 33 attribute choices; seven role categories, including three civil size groups and four military role groups. Not a fixed aircraft-model taxonomy.",
+    "annotations": "Diamond polygons (nose, wings, tail), bounding boxes, measured length/wingspan; full instance segmentation is synthetic-only.",
+    "features": "Wing/engine/tail/fuselage attributes; real RGB 0.31–0.39 m GSD; panchromatic and multispectral products; rich capture metadata.",
+    "provenance": "Jacob Shermeyer et al., CosmiQ Works/In-Q-Tel and AI.Reverie; 2020 release, WACV 2021 paper; Maxar real imagery and AI.Reverie simulation.",
+    "quality": "Professional real-data labelling with two quality-control rounds; explicit source and simulated/real distinction; documented feature definitions and geographic/seasonal variation.",
+    "limits": "An airfield can occur in both real train and test splits at different dates; this is not a location-disjoint benchmark. Real tiles overlap by 20%. Diamond polygons are not full silhouette masks; synthetic masks are different ground truth. Real and synthetic totals must stay separate.",
+    "splits": "Paper explicitly allows same locations in real train/test at different dates. Synthetic study split: 45,000 images and 5,000 validation images; not 50,000 independent real observations.",
+    "access": "AWS Open Data registry provides public S3 access without an AWS account; no planned updates. Metadata verified; archive not downloaded.",
+    "license": "Dataset CC BY-SA 4.0, explicitly stated by both creator and AWS registry.",
+    "semantics": "Visual morphology and broad aircraft role labels; not model-specific identity, activity, intent or narrative descriptions.",
+    "sources": [
+      {
+        "title": "Creator dataset page",
+        "url": "https://www.cosmiqworks.org/rareplanes/"
+      },
+      {
+        "title": "Primary paper full text (v2)",
+        "url": "https://arxiv.org/html/2006.02963v2"
+      },
+      {
+        "title": "AWS Open Data access and licence",
+        "url": "https://registry.opendata.aws/rareplanes/"
+      }
+    ],
+    "id": "D22",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "ShipRSImageNet (paper counts; repository currently V1.1)",
+    "year": 2021,
+    "group": "Overhead optical imagery",
+    "scope": "Fine-grained mixed military and civilian ship labels",
+    "modality": "High-resolution optical overhead images from several satellites and reused datasets",
+    "unit": "images",
+    "count": 3435,
+    "count_note": "Paper/README headline: 3,435 images and 17,573 ship instances, 50 types. Repository announces V1.1 with a dedicated test set but does not provide separate new headline totals. Source contributions listed in README sum to 3,473, not 3,435; unresolved.",
+    "classes": "Four-level hierarchy, 50 leaf labels; military ship classes/types, merchant/vessel functions, other categories and Dock.",
+    "annotations": "Horizontal boxes, oriented boxes and polygons; formats include VOC and COCO.",
+    "features": "Approximately 930×930 images; mixed sensor and season provenance; fine-grained hierarchical labels.",
+    "provenance": "Zhengning Zhang et al., IEEE JSTARS 14, 8458–8472 (2021), DOI 10.1109/JSTARS.2021.3104230; official zzndream repository.",
+    "quality": "Experts relabelled source images, corrected mislabels and added missed small ships; repository explicitly documents source reuse and updated test release.",
+    "limits": "README lists 532 xView crops (150-pixel overlap), 1,057 HRSC2016 images, 1,846 FGSD images, 21 Airbus challenge images, 17 GF-2/JL-1 images. Data independence from parent datasets cannot be assumed. Source totals and licences conflict internally. Polygon/mask representation should be inspected before calling it true silhouette segmentation.",
+    "splits": "V1.1 adds a dedicated test set; exact counts and source-disjointness not verified.",
+    "access": "Creator repository publishes Google Drive/Baidu V1.1 links; archive untested.",
+    "license": "README expressly restricts images/annotations to academic use and prohibits commercial use, but its final section also claims Apache 2.0. Treat this as unresolved, not blanket Apache permission; source licences also differ.",
+    "semantics": "Ship visible type/category, including civilian and military classes, plus dock; not allegiance, activity, readiness or textual scene explanation.",
+    "sources": [
+      {
+        "title": "Official repository and current V1.1 notice",
+        "url": "https://github.com/zzndream/ShipRSImageNet"
+      },
+      {
+        "title": "Raw creator README with source/term statements",
+        "url": "https://raw.githubusercontent.com/zzndream/ShipRSImageNet/main/README.md"
+      },
+      {
+        "title": "Dataset paper",
+        "url": "https://doi.org/10.1109/JSTARS.2021.3104230"
+      }
+    ],
+    "id": "D23",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "xView (2018 detection dataset)",
+    "year": 2018,
+    "group": "Overhead optical imagery",
+    "scope": "General overhead object detection; military sponsors do not make every class a military label",
+    "modality": "Maxar/DigitalGlobe WorldView-3 optical imagery; RGB public release at about 0.3 m GSD",
+    "unit": "object instances (approximately)",
+    "count": 1000000,
+    "count_note": "Official page: approximately 1.0 million instances, 60 classes, 1,415 km². No canonical image-file count asserted here; image-chip counts in secondary sources vary.",
+    "classes": "60 categories, with seven parent groups and additional standalone classes. Aircraft labels include small aircraft/cargo plane; maritime classes are functional vessel types.",
+    "annotations": "Axis-aligned bounding boxes; parent/child class ontology. Paper describes RGB and 8-band imagery during annotation, but identifies the public RGB release separately.",
+    "features": "Wide geographic/scene diversity, small objects and pronounced class imbalance.",
+    "provenance": "Darius Lam et al. (2018); Defense Innovation Unit Experimental, National Geospatial-Intelligence Agency and DigitalGlobe; arXiv:1802.07856.",
+    "quality": "Three-stage quality-control process, expert gold-standard reannotation and remediation described in the primary paper.",
+    "limits": "Building and small-car classes dominate. Axis-aligned boxes can include substantial background around rotated elongated objects; paper explicitly illustrates this. Image source/region independence and full current download access were not audited.",
+    "splits": "Training/validation/test manifest not inspected; historical challenge download flow is registration-linked.",
+    "access": "Official dataset and terms pages accessible; registration link published. Current complete archive retrieval was not tested.",
+    "license": "Official terms section 5.1: CC BY-NC-SA 4.0 for the dataset. This differs from the paper's CC BY article licence.",
+    "semantics": "General visible objects and some land-use groupings. Tank Car is a railway vehicle in the published ontology, not an armoured tank. No equipment-model military taxonomy or scene captions.",
+    "sources": [
+      {
+        "title": "Official dataset overview",
+        "url": "https://xviewdataset.org/"
+      },
+      {
+        "title": "Primary full-text paper and class table",
+        "url": "https://arxiv.org/html/1802.07856"
+      },
+      {
+        "title": "Official dataset licence, section 5.1",
+        "url": "https://xviewdataset.org/terms.html"
+      }
+    ],
+    "id": "D24",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DroneVehicle",
+    "year": 2022,
+    "group": "Visible and thermal imagery",
+    "scope": "Adjacent/general drone-view civilian vehicle detection.",
+    "modality": "Paired RGB and infrared aerial still images.",
+    "unit": "image pairs",
+    "count": 28439,
+    "count_note": "28,439 pairs/56,878 images. Published class counts sum to 953,087 oriented boxes: 452,570 RGB + 500,517 IR. Not a unique physical-vehicle count.",
+    "classes": "Five: car, truck, bus, van, freight car.",
+    "annotations": "Oriented boxes and vehicle classes separately annotated in each modality.",
+    "features": "Urban roads, residential areas, parking lots; day/night. 840x712 downloads include 100-pixel border around 640x512 image region.",
+    "provenance": "Official VisDrone release; Sun, Cao, Zhu and Hu, IEEE TCSVT 2022, DOI 10.1109/TCSVT.2022.3168279.",
+    "quality": "Detailed per-class/per-modality counts and border convention documented.",
+    "limits": "Different annotation totals across modalities; pairing does not establish exact pixel registration. No military subclasses or event labels established.",
+    "splits": "Train/validation/test downloads provided; split sizes not stated in checked README.",
+    "access": "Baidu split links; README says Google Drive link will be released soon. Archives not tested.",
+    "license": "No explicit dataset license found in README or GitHub license endpoint.",
+    "semantics": "Vehicle class and oriented image location; no military activity, affiliation or intent.",
+    "sources": [
+      {
+        "title": "Official dataset README",
+        "url": "https://github.com/VisDrone/DroneVehicle"
+      },
+      {
+        "title": "Author paper",
+        "url": "https://arxiv.org/abs/2003.02437"
+      }
+    ],
+    "id": "D25",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DSIAC ATR Algorithm Development Image Database / historical SENSIAC lead",
+    "year": null,
+    "group": "Visible and thermal imagery",
+    "scope": "Military-origin archive: military vehicles, civilian vehicles and people; request-based distribution.",
+    "modality": "Visible EO and mid-wave infrared (MWIR).",
+    "unit": "archive size (GB)",
+    "count": 206,
+    "count_note": "Official page reports 206 GB multipart download, not an image/frame/sequence total. The 2,595-image/eight-class DSIAC description in a 2025 study is not a full-archive count.",
+    "classes": "People, foreign military vehicles and civilian vehicles; exact taxonomy not enumerated on current landing page.",
+    "annotations": "Ground truth, meteorological data, target photographs, target/background temperature differentials, seven-section user guide and viewer. Exact ground-truth schema not stated in the landing-page summary.",
+    "features": "Commercial visible/MWIR cameras; multiple ranges and aspect angles; accompanying capture context.",
+    "provenance": "US Army Night Vision and Electronic Sensors Directorate (NVESD), distributed by DSIAC. The old SENSIAC portal did not resolve in this audit.",
+    "quality": "Publisher documents ground truth and capture/environment metadata; files not inspected.",
+    "limits": "Complete counts, exact vehicle classes, box completeness, event labels and standard splits not established from current primary description.",
+    "splits": "No standard split stated. Paper-specific subsets must be identified separately.",
+    "access": "Current official page verified. Distribution Statement A, approved for public release, with DSIAC reserving final distribution. Request/contact process; no request submitted.",
+    "license": "Public-release statement is not an explicit reusable-data license; distribution remains discretionary.",
+    "semantics": "Military/civilian object imagery and capture metadata; no documented intent, allegiance, narrative or event-level annotation schema.",
+    "sources": [
+      {
+        "title": "Current official archive page",
+        "url": "https://dsiac.dtic.mil/databases/atr-algorithm-development-image-database/"
+      },
+      {
+        "title": "Legacy URL, now redirected",
+        "url": "https://dsiac.org/databases/atr-algorithm-development-image-database/"
+      },
+      {
+        "title": "2025 paper describing a DSIAC subset, IV-A",
+        "url": "https://arxiv.org/html/2501.07396v1"
+      }
+    ],
+    "id": "D26",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "M3FD",
+    "year": 2022,
+    "group": "Visible and thermal imagery",
+    "scope": "Adjacent/general civilian road and public-scene multispectral detection.",
+    "modality": "Registered visible and infrared still-image pairs.",
+    "unit": "image pairs",
+    "count": 4200,
+    "count_note": "Main set: 4,200 pairs/8,400 images. Current README also lists 300 independent fusion pairs/600 images. Paper v1 reports 33,603 objects; current README 34,407 labels. Preserve discrepancy.",
+    "classes": "Six: People, Car, Bus, Motorcycle, Lamp, Truck.",
+    "annotations": "Manual detection boxes/classes; YOLO text labels. Paper describes four environmental condition groups and ten sub-scenarios.",
+    "features": "Mostly 1024x768; synchronized optical/infrared sensor system; calibrated and homography-registered pairs.",
+    "provenance": "TarDAL authors; Dalian University of Technology, Golden Stone Beach resort and Jinzhou District roads, Dalian, China.",
+    "quality": "Alignment and capture sites documented. Authors explicitly acknowledge some labels may be missed or mismarked.",
+    "limits": "Box count varies by source version. Separate 300-pair fusion set is not the 4,200-pair detection set. No independent label/image audit.",
+    "splits": "Repository describes train/val/pred metadata; canonical split totals not established here.",
+    "access": "Author Google Drive and Baidu links published; actual archives not tested.",
+    "license": "TarDAL code is GPL-3.0; a separate clear off-site imagery license not verified.",
+    "semantics": "Ordinary object boxes and environmental groups. Multi-scenario is not military event or intent annotation.",
+    "sources": [
+      {
+        "title": "Official dataset README",
+        "url": "https://github.com/JinyuanLiu-CV/TarDAL"
+      },
+      {
+        "title": "Original paper v1, dataset section",
+        "url": "https://arxiv.org/html/2203.16220v1"
+      },
+      {
+        "title": "Repository license",
+        "url": "https://github.com/JinyuanLiu-CV/TarDAL/blob/main/LICENSE"
+      }
+    ],
+    "id": "D27",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "TNO Image Fusion Dataset",
+    "year": 2014,
+    "group": "Visible and thermal imagery",
+    "scope": "Military-relevant and civilian surveillance imagery; no formal detection taxonomy established.",
+    "modality": "Intensified visual, NIR and LWIR nighttime imagery; different camera collections.",
+    "unit": "complete image/sequence total unspecified",
+    "count": null,
+    "count_note": "Official v2 description does not give total items. Original v1 published 2014-04-26; current v2 published 2022-10-15. Third-party curated subset counts are not official totals.",
+    "classes": "No formal object class list in official description.",
+    "annotations": "Camera/capture references in Athena, DHV, FEL and TRICLOBS folders; no box/mask/event schema documented on landing page.",
+    "features": "Multiband nighttime imagery with several sensor families and recording references.",
+    "provenance": "TNO, Soesterberg, Netherlands; official versioned Figshare record.",
+    "quality": "Versioned DOI, named sensor families and explicit reuse license.",
+    "limits": "Complete counts and task labels not established in checked primary summary. Camera collections not necessarily homogeneous.",
+    "splits": "No standard train/validation/test split stated.",
+    "access": "Public Figshare release; files not downloaded.",
+    "license": "Official v2 metadata CC BY 4.0; description allows research/publication with TNO credit and dataset citation.",
+    "semantics": "Military-relevant scenes are described, but no formal military identity/event taxonomy. Separate from TRICLOBS dynamic release.",
+    "sources": [
+      {
+        "title": "Official v2 release",
+        "url": "https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029"
+      },
+      {
+        "title": "Version 2 DOI",
+        "url": "https://doi.org/10.6084/m9.figshare.1008029.v2"
+      },
+      {
+        "title": "Original version",
+        "url": "https://doi.org/10.6084/m9.figshare.1008029.v1"
+      }
+    ],
+    "id": "D28",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "TRICLOBS Dynamic Multiband Image Dataset",
+    "year": 2016,
+    "group": "Visible and thermal imagery",
+    "scope": "Military/civilian surveillance field-trial scenarios with clip-level action descriptions; not real-combat footage.",
+    "modality": "Registered visible (400-700 nm), NIR (700-1000 nm), LWIR (8-14 micrometers) motion sequences.",
+    "unit": "motion sequences",
+    "count": 16,
+    "count_note": "16 sequences at three locations. Table 1 per-sequence counts sum to 56,865 multiband time frames (derived, not a filesystem count).",
+    "classes": "No closed detection taxonomy. Described content includes military/civilian people, vehicles, carried objects, buildings and foliage.",
+    "annotations": "Paper Table 1 supplies one natural-language Action brief plus frame count per clip. Reference color photographs and sensor documentation; no verified dense boxes, track IDs or timed event boundaries.",
+    "features": "Registered three-band 640x480 output; false-color RGB stores the three spectral bands; color reference photographs.",
+    "provenance": "TNO field trials; Toet, Hogervorst and Pinkus, PLOS ONE 2016; official Figshare v1.",
+    "quality": "Versioned licensed release, sensor characterization and explicit 16-row scenario-description table.",
+    "limits": "Sixteen field-trial clips at three locations. Clip briefs are not dense action labels or intent ground truth. Dataset files not inspected.",
+    "splits": "No standard machine-learning split specified.",
+    "access": "Public Figshare record/files and open paper; files not downloaded.",
+    "license": "Official dataset CC BY 4.0; paper and scenario table also CC BY.",
+    "semantics": "Actual clip-level narrative scenario metadata for staged visible actions; no verified fine-grained event timeline or intent annotation.",
+    "sources": [
+      {
+        "title": "Official dataset",
+        "url": "https://figshare.com/articles/dataset/The_TRICLOBS_Dynamic_Multiband_Image_Dataset/3206887"
+      },
+      {
+        "title": "Primary paper",
+        "url": "https://doi.org/10.1371/journal.pone.0165016"
+      },
+      {
+        "title": "Scenario description table",
+        "url": "https://doi.org/10.1371/journal.pone.0165016.t001"
+      }
+    ],
+    "id": "D29",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Anti-UAV original / later Anti-UAV300 label",
+    "year": 2021,
+    "group": "Video tracking",
+    "scope": "Adjacent/general ground-to-air consumer-drone tracking; no military-platform taxonomy.",
+    "modality": "Visible/thermal video pairs; original paper explicitly says unaligned.",
+    "unit": "RGB-T video pairs",
+    "count": 318,
+    "count_note": "Original v3 paper: 318 pairs, ~585.9K boxes (abstract over 580K). Current umbrella calls RGB+IR release Anti-UAV300; version name is not exact paper count.",
+    "classes": "Tracked UAVs, mainly DJI and Parrot; no verified military subtype label set.",
+    "annotations": "Boxes, per-frame existence/visibility flag, seven challenge attributes. Progressive coarse-to-fine annotation/correction described.",
+    "features": "25 FPS MP4, day/night, diverse backgrounds and out-of-view targets.",
+    "provenance": "UCAS/CASIA/Institute of North Electronic Equipment collaboration; original and umbrella author repositories.",
+    "quality": "Annotation/split protocol, absence flags, challenge attributes and author start-frame corrections published.",
+    "limits": "Modalities unaligned. Train/validation are different clips from same videos; test independent. Do not infer independent manual annotation for every release frame from total boxes.",
+    "splits": "160 train, 67 validation, 91 test paired sequences in paper version.",
+    "access": "Author Drive/Baidu links; original README lists four start-frame corrections; archives not downloaded.",
+    "license": "Umbrella project MIT; original paper says academic research. Separate off-site imagery terms not independently verified.",
+    "semantics": "UAV location/existence and tracking conditions. No military identity, intent, threat, authorization or allegiance ground truth.",
+    "sources": [
+      {
+        "title": "Original paper v3",
+        "url": "https://arxiv.org/html/2101.08466v3"
+      },
+      {
+        "title": "Original release/corrections",
+        "url": "https://github.com/ucas-vg/Anti-UAV"
+      },
+      {
+        "title": "Current version/license table",
+        "url": "https://github.com/ZhaoJ9014/Anti-UAV"
+      }
+    ],
+    "id": "D30",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Anti-UAV410",
+    "year": 2023,
+    "group": "Video tracking",
+    "scope": "Adjacent/general thermal drone tracking.",
+    "modality": "Thermal infrared videos only.",
+    "unit": "videos",
+    "count": 410,
+    "count_note": "410 videos with over 438K manually annotated boxes, per dedicated author README; not paired RGB-T.",
+    "classes": "UAV target; no military identity taxonomy verified.",
+    "annotations": "Boxes, target absence, ten ordered video attributes including size bands. Frame attributes in IR_label.json explicitly incomplete.",
+    "features": "Thermal crossover, out-of-view, scale variation, fast motion, occlusion and background clutter.",
+    "provenance": "Huang and coauthors, IEEE TPAMI 2023; official HwangBo94/Anti-UAV410 repository.",
+    "quality": "Author toolkit, explicit attribute ordering and honest frame-attribute completeness caveat.",
+    "limits": "Incomplete frame attributes are not exhaustive scenario labels. No RGB in this version; files not inspected.",
+    "splits": "Train/validation/test documented; exact split counts not established here.",
+    "access": "Dedicated official repository provides Drive/Baidu links although umbrella lists 410 Drive N/A.",
+    "license": "Dedicated repo has no detected license; umbrella MIT does not independently verify off-site data terms.",
+    "semantics": "Drone location/presence and image/tracking difficulty, not military identity or event narratives.",
+    "sources": [
+      {
+        "title": "Dedicated official release",
+        "url": "https://github.com/HwangBo94/Anti-UAV410"
+      },
+      {
+        "title": "Umbrella version table",
+        "url": "https://github.com/ZhaoJ9014/Anti-UAV"
+      }
+    ],
+    "id": "D31",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "AntiUAV600",
+    "year": 2023,
+    "group": "Video tracking",
+    "scope": "Adjacent/general thermal drone detection/tracking; version disambiguation.",
+    "modality": "Thermal infrared video only.",
+    "unit": "video sequences",
+    "count": 600,
+    "count_note": "600 sequences and over 723K thermal frames densely annotated with boxes per paper v2. Overlap with prior versions not audited.",
+    "classes": "UAV target; no fine-grained military taxonomy established.",
+    "annotations": "Dense frame boxes; umbrella task defines target absence/state handling. Files/schema not inspected.",
+    "features": "Complex backgrounds and drone appearance/reappearance.",
+    "provenance": "Zhu and coauthors, arXiv:2306.15767v2; official Anti-UAV repository links ModelScope release.",
+    "quality": "Primary count/dense annotation description and explicit publisher-linked release.",
+    "limits": "Versions cannot be summed as disjoint datasets. No event/caption/identity-class audit.",
+    "splits": "Not established from checked abstract and umbrella README.",
+    "access": "Official repository points to ModelScope; actual archive access untested.",
+    "license": "Umbrella MIT; ModelScope dataset-specific terms unverified.",
+    "semantics": "Drone localization and existence; no military scenario/intent label schema.",
+    "sources": [
+      {
+        "title": "Primary paper v2",
+        "url": "https://arxiv.org/abs/2306.15767v2"
+      },
+      {
+        "title": "Official version table",
+        "url": "https://github.com/ZhaoJ9014/Anti-UAV"
+      },
+      {
+        "title": "Publisher-linked release",
+        "url": "https://modelscope.cn/datasets/ly261666/3rd_Anti-UAV/files"
+      }
+    ],
+    "id": "D32",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "DUT Anti-UAV",
+    "year": 2022,
+    "group": "Video tracking",
+    "scope": "Adjacent/general visible-light consumer-drone detection/tracking.",
+    "modality": "Visible-light still images and video; no thermal channel.",
+    "unit": "detection images",
+    "count": 10000,
+    "count_note": "10,000 images/10,109 object instances; separate 20 tracking videos (paper mean length 1,240 frames). Table Num values are objects, not images.",
+    "classes": "UAV target; over 35 drone types occur visually, but a 35-way annotated classification task not established.",
+    "annotations": "Manual detection boxes and per-frame tracking boxes.",
+    "features": "Detection images 160x240 to 3744x5616; video 1280x720 or 1920x1080; varied outdoor scenes/light/weather.",
+    "provenance": "Zhao, Zhang, Li and Wang, Dalian University of Technology, IEEE TITS 2022; author repository.",
+    "quality": "Paper separates image and instance counts and documents manual labels, splits and image sizes.",
+    "limits": "Source analysis shows central object-position bias. Only 20 tracking videos. No military classes/thermal channel; individual image rights/provenance not audited.",
+    "splits": "Train/test/validation images 5,200/2,200/2,600; boxes 5,243/2,245/2,621. Twenty tracking evaluation videos.",
+    "access": "Official Drive/Baidu detection splits and separate tracking images/ground truth; not downloaded.",
+    "license": "Repository Apache-2.0; separate explicit off-site imagery terms unverified. Paper CC BY-NC-SA is not automatically data license.",
+    "semantics": "UAV boxes and trajectories; no event, intent, threat or authorization labels.",
+    "sources": [
+      {
+        "title": "Official release",
+        "url": "https://github.com/wangdongdut/DUT-Anti-UAV"
+      },
+      {
+        "title": "Primary paper III",
+        "url": "https://arxiv.org/html/2205.10851v1"
+      },
+      {
+        "title": "Repository license",
+        "url": "https://github.com/wangdongdut/DUT-Anti-UAV/blob/master/LICENSE"
+      }
+    ],
+    "id": "D33",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Military Vehicles in Low-FPS UAV Footage validation benchmark",
+    "year": 2025,
+    "group": "Video tracking",
+    "scope": "Explicit military vehicle MOT labels from online video; author-reviewed restricted-purpose access.",
+    "modality": "UAV-view video; no thermal channel or registered multimodal release explicitly established.",
+    "unit": "videos",
+    "count": 119,
+    "count_note": "Paper III: 119 videos/18,421 frames/58,897 boxes. Live request form: all recordings 5 FPS. Sources 480p to 4K, analyzed clips 7-90 seconds.",
+    "classes": "Three coarse groups: Heavily Armored; Lightly Armored or Unarmored; Trucks. Not a fine-grained platform taxonomy.",
+    "annotations": "Expert boxes, class labels, unique vehicle track IDs and temporal links; multiple-review quality control.",
+    "features": "Online UAV videos with varied views/occlusion; paper reports 14% winter/86% summer.",
+    "provenance": "Kostiv and coauthors, UCU/CIDTD MoD Ukraine, ICMCIS 2025; raw sources Telegram, X and YouTube.",
+    "quality": "Concrete clip/frame/box totals and human track-consistency review described.",
+    "limits": "Original video redistribution rights not established. Grant/download untested. Coarse military classes and within-video IDs are not exact platform identities or scenario/intent labels.",
+    "splits": "Validation benchmark; no public canonical train/test split verified.",
+    "access": "Live author form verified, not submitted. Authors consider requests (form says 2-4 days); asks purpose/security and prior authorization for redistribution/repurposing.",
+    "license": "No open data license verified. Purpose limitation/no redistribution or repurposing without authorization in request form. Paper license is separate.",
+    "semantics": "Coarse military object class, location and within-video persistent identity; no documented event narratives, intent or allegiance annotation.",
+    "sources": [
+      {
+        "title": "Primary paper III/access statement",
+        "url": "https://arxiv.org/html/2507.05229v1"
+      },
+      {
+        "title": "Verified author request form",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdKceLoF_L3242FDJLLFdIiVDepQ0imt54SwbxnFgt1sSpjug/viewform?usp=sharing"
+      },
+      {
+        "title": "Published DOI",
+        "url": "https://doi.org/10.1109/ICMCIS64378.2025.11047873"
+      }
+    ],
+    "id": "D34",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "VTUAV / DUT-VTUAV",
+    "year": 2022,
+    "group": "Video tracking",
+    "scope": "Adjacent/general ordinary-object tracking filmed from a UAV; UAV is the camera platform.",
+    "modality": "Registered visible/thermal video pairs.",
+    "unit": "RGB-T frame pairs",
+    "count": 1664549,
+    "count_note": "500 sequences/1,664,549 pairs (~1.7M). Sparse boxes every 10 frames: 326,961 boxes across modalities. Mask subset: 24,464 masks at 1 FPS across 100 sequences.",
+    "classes": "Five superclasses: pedestrian, vehicle, animal, train, ship; 13 subclasses; 15 scene types in two cities.",
+    "annotations": "Separate modality boxes every ten frames; masks; 13 sequence attributes; 301,678 frames with 430,960 frame-attribute labels (some automatically derived).",
+    "features": "30 FPS; output stored 1920x1080; thermal native 640x480, rescaled during registration. Short-/long-term/mask subsets.",
+    "provenance": "Dalian University of Technology authors; DJI Matrice 300 RTK/Zenmuse H20T; CVPR 2022.",
+    "quality": "Precise annotation cadence/counts, mask subset and challenge hierarchy documented.",
+    "limits": "1.7M pairs are not 1.7M manually boxed pairs. Output thermal size is resampled. Three archive parts corrected April 2022. No military classes/events.",
+    "splits": "250 train (207 short-term/43 long-term), 250 test (176/74). Masks: 50 train/50 test sequences.",
+    "access": "Official Drive/Baidu RGB-T, RGB-only and mask releases; archives not tested.",
+    "license": "No explicit dataset license found in project/README; GitHub license endpoint no license.",
+    "semantics": "Localization/masks and imaging/tracking challenges, plus generic scene categories. No military scenario or intent labels.",
+    "sources": [
+      {
+        "title": "Official project and release notices",
+        "url": "https://zhang-pengyu.github.io/DUT-VTUAV/"
+      },
+      {
+        "title": "Official repository",
+        "url": "https://github.com/zhang-pengyu/DUT-VTUAV"
+      },
+      {
+        "title": "Paper with annotation details",
+        "url": "https://arxiv.org/html/2204.04120v1"
+      }
+    ],
+    "id": "D35",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "IRSTD-1k",
+    "year": 2022,
+    "group": "Infrared small spots",
+    "scope": "Adjacent/general real infrared small-target segmentation.",
+    "modality": "Real infrared still images.",
+    "unit": "images",
+    "count": 1000,
+    "count_note": "CVPR paper: 1,000 images, 512x512. Current official README: 1,001. Discrepancy unresolved without archive inspection.",
+    "classes": "Paper describes drones, creatures, vessels and vehicles visually; multi-class identity labels not established.",
+    "annotations": "Manual pixel-level target masks.",
+    "features": "Sea/river/field/mountain/city/cloud backgrounds; varied shapes and sizes.",
+    "provenance": "Mingjin Zhang, Rui Zhang and coauthors, ISNet CVPR 2022; official RuiZhang97/ISNet.",
+    "quality": "Real images, manually annotated masks and collection/resolution details documented.",
+    "limits": "1,000/1,001 discrepancy. Generic target masks do not identify military objects. Files not inspected.",
+    "splits": "Paper 50% train/30% validation/20% test.",
+    "access": "Official Drive and Chinese cloud mirror; archive not downloaded.",
+    "license": "Dataset table explicitly says Agreement (MIT License); repository MIT. Underlying rights not separately audited.",
+    "semantics": "Target presence/shape; varied scenery/content is not military identity or event annotation.",
+    "sources": [
+      {
+        "title": "Official release, 1,001 claim",
+        "url": "https://github.com/RuiZhang97/ISNet"
+      },
+      {
+        "title": "CVPR paper, 1,000 claim",
+        "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_ISNet_Shape_Matters_for_Infrared_Small_Target_Detection_CVPR_2022_paper.pdf"
+      },
+      {
+        "title": "Repository license",
+        "url": "https://github.com/RuiZhang97/ISNet/blob/main/LICENSE"
+      }
+    ],
+    "id": "D36",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "NUDT-SIRST",
+    "year": 2023,
+    "group": "Infrared small spots",
+    "scope": "Adjacent/general synthetic small-target segmentation; not military identity recognition.",
+    "modality": "Synthetic infrared small targets with real infrared backgrounds.",
+    "unit": "images",
+    "count": 1327,
+    "count_note": "1,327 synthesized 256x256 images; introduced in 2021 preprint, final IEEE TIP paper 2023.",
+    "classes": "Generic target, with point/spot/extended forms; not verified vehicle/platform identity classes.",
+    "annotations": "Synthesis-derived pixel-level ground-truth target masks.",
+    "features": "Cloud/city/sea/field/highlight backgrounds; varied target morphology, size and count.",
+    "provenance": "Li, Xiao, Wang and coauthors, DNANet; official YeRen123455/Infrared-Small-Target-Detection.",
+    "quality": "Synthetic provenance, known masks, size and count explicitly stated.",
+    "limits": "Synthetic realism not independently validated. Varied target forms are not military identity labels.",
+    "splits": "Repository shows a 50_50 split option; lists not inspected.",
+    "access": "Official Baidu download; archive not downloaded.",
+    "license": "Repository MIT is software wording with inherited 2018 author credit; explicit dataset terms not independently verified.",
+    "semantics": "Target/background and morphology; no military events or platform identity schema.",
+    "sources": [
+      {
+        "title": "Official dataset description",
+        "url": "https://github.com/YeRen123455/Infrared-Small-Target-Detection"
+      },
+      {
+        "title": "Author paper",
+        "url": "https://arxiv.org/abs/2106.00487"
+      },
+      {
+        "title": "Repository license",
+        "url": "https://github.com/YeRen123455/Infrared-Small-Target-Detection/blob/master/LICENSE"
+      }
+    ],
+    "id": "D37",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SIRST (often called NUAA-SIRST in later papers)",
+    "year": 2021,
+    "group": "Infrared small spots",
+    "scope": "Adjacent/general single-frame infrared small-target localization.",
+    "modality": "IR still images from sequences; paper includes short-/mid-wave and 950-nm images.",
+    "unit": "images",
+    "count": 427,
+    "count_note": "Original paper: 427 images/480 target instances. Authors explicitly request SIRST rather than NUAA-SIRST. SIRST v2 is a separate release.",
+    "classes": "One generic target class; original paper explicitly declines finer classification for these small objects.",
+    "annotations": "Bounding boxes and semantic segmentation masks.",
+    "features": "One representative image per source sequence; small/dim objects and diverse backgrounds.",
+    "provenance": "Yimian Dai and coauthors, WACV 2021; official YimianDai/sirst repository.",
+    "quality": "Primary counts, annotation formats and sequence-selection rationale documented.",
+    "limits": "Small corpus and mixed IR wavelengths. Binary masks cannot establish military identities. Original image rights not individually audited.",
+    "splits": "Original paper approximately 50% train/20% validation/30% test; later papers use different splits.",
+    "access": "Public official GitHub release; no images/annotation files inspected.",
+    "license": "No explicit license in checked README or GitHub license endpoint.",
+    "semantics": "Target/background and target position only; no military subtype or scenario/event labels.",
+    "sources": [
+      {
+        "title": "Official repository/naming correction",
+        "url": "https://github.com/YimianDai/sirst"
+      },
+      {
+        "title": "Original WACV paper",
+        "url": "https://openaccess.thecvf.com/content/WACV2021/papers/Dai_Asymmetric_Contextual_Modulation_for_Infrared_Small_Target_Detection_WACV_2021_paper.pdf"
+      },
+      {
+        "title": "Separate successor",
+        "url": "https://github.com/YimianDai/open-sirst-v2"
+      }
+    ],
+    "id": "D38",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "15-class RGB military-vehicle collection described by TNO studies",
+    "year": 2026,
+    "group": "Web and synthetic imagery",
+    "scope": "Paper-described military vehicle image collection; public release unverified",
+    "modality": "Real web-scraped RGB imagery; synthetic variants discussed separately",
+    "unit": "real images",
+    "count": 959,
+    "count_note": "959 real images across 15 military-vehicle classes; 2026 paper reuses a collection from Heslinga et al. (SPIE, 2024). Do not count this as a newly independently acquired 2026 dataset.",
+    "classes": "15 military-vehicle classes grouped under vehicle superclasses.",
+    "annotations": "Object-detection labels; released annotation format and per-image object counts not verified.",
+    "features": "Web image provenance and explicit fixed real-image split sizes.",
+    "provenance": "Ella P. Fokkinga et al., TNO, arXiv:2604.18076 (20 Apr 2026); cites Heslinga et al. (2024), Combining simulated data, foundation models, and few real samples for training object detectors.",
+    "quality": "Primary full text reports exact real-image counts and explicitly acknowledges reuse of the earlier collection.",
+    "limits": "Web image rights and independent scene/object identities are not documented in inspected text. Public downloadable dataset/manifest/licence not found; this is a literature entry, not a verified open-data asset. No operational performance conclusions included.",
+    "splits": "Paper reports 360 training, 150 validation and 449 test images; total 959.",
+    "access": "Public paper full text; a creator-controlled public data release was not verified.",
+    "license": "No dataset-specific licence verified. The paper's arXiv licence does not grant rights in web images.",
+    "semantics": "Fine-grained equipment identity classes in RGB images; no captions or current status/intent labels.",
+    "sources": [
+      {
+        "title": "Primary full-text paper",
+        "url": "https://arxiv.org/html/2604.18076"
+      },
+      {
+        "title": "Primary arXiv record",
+        "url": "https://arxiv.org/abs/2604.18076"
+      }
+    ],
+    "id": "D39",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "milair-dataset",
+    "year": null,
+    "group": "Web and synthetic imagery",
+    "scope": "Military-labelled aircraft",
+    "modality": "RGB frames from YouTube videos; 1280 x 720",
+    "unit": "class occurrences",
+    "count": 660,
+    "count_note": "660 is the sum of the six README class-occurrence counts, not a verified unique-image total.",
+    "classes": "6 aircraft types.",
+    "annotations": "Pascal VOC bounding boxes and type labels.",
+    "features": "Consistent image size; extracted video stills rather than a documented temporal tracking benchmark.",
+    "provenance": "tlkh creator repository; frames from multiple YouTube videos.",
+    "quality": "Annotations and images are listed in the repository; explicit source medium and per-class counts.",
+    "limits": "Adjacent frames may be correlated. No verified split by source video, duplicate rate, annotation error rate or underlying video rights.",
+    "splits": "No official independent video-level split documented in README.",
+    "access": "Public repository; dataset images not downloaded.",
+    "license": "Repository declares MIT; that alone does not establish rights to every source video frame.",
+    "semantics": "Aircraft type and image location; no track continuity or event labels.",
+    "sources": [
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/tlkh/milair-dataset"
+      }
+    ],
+    "id": "D40",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Military Aircraft Detection Dataset (Kaggle v105)",
+    "year": 2026,
+    "group": "Web and synthetic imagery",
+    "scope": "Military-labelled and civilian aircraft",
+    "modality": "Visible photographs; mixed views",
+    "unit": "images",
+    "count": null,
+    "count_note": "Current metadata version 105, updated 29 October 2026. Inspected description does not provide a verified unique-image count; do not infer one from bytes or crop files.",
+    "classes": "114 total classes in current description: 103 military-labelled aircraft types and 11 commercial airliner types.",
+    "annotations": "CSV boxes in xmin/ymin/xmax/ymax coordinates, class and image dimensions; separate derived crop folders.",
+    "features": "Full-image object annotations and per-object classification crops are separate representations of overlapping content.",
+    "provenance": "T Nakamura, Kaggle owner a2015003713. Current owner metadata inspected through public API.",
+    "quality": "Active version history and an explicit annotation schema; merged visually similar variants are acknowledged.",
+    "limits": "Older mirrors advertise different class totals and licences. No unique-image inventory, class balance, per-image provenance, inter-annotator accuracy or independent split audit completed.",
+    "splits": "Train/test source-independence not established by inspected description.",
+    "access": "Public owner card/API; download/login workflow not tested.",
+    "license": "Current owner metadata says Unknown. A mirror Apache tag cannot resolve the owner licence.",
+    "semantics": "Appearance category and box; no event or intent annotations. Crops do not add new independent scenes.",
+    "sources": [
+      {
+        "title": "Owner dataset page",
+        "url": "https://www.kaggle.com/datasets/a2015003713/militaryaircraftdetectiondataset"
+      },
+      {
+        "title": "Owner metadata API",
+        "url": "https://www.kaggle.com/api/v1/datasets/view/a2015003713/militaryaircraftdetectiondataset"
+      }
+    ],
+    "id": "D41",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Military and Civilian Vehicles Classification (Mendeley v1)",
+    "year": 2021,
+    "group": "Web and synthetic imagery",
+    "scope": "Military-labelled and civilian objects",
+    "modality": "Visible photographs; mixed viewpoints",
+    "unit": "images",
+    "count": 6772,
+    "count_note": "6,642 positive images, 130 negative images; 11,528 annotated objects according to the depositor. These are different counting units.",
+    "classes": "6 broad vehicle and aircraft categories, divided into military-labelled and civilian-labelled classes.",
+    "annotations": "Object labels distributed as TXT, CSV, XML and TFRecord. Individual annotation files were not inspected.",
+    "features": "A negative-image subset is explicitly documented. Despite the title saying classification, the description discusses multiple labelled objects per image.",
+    "provenance": "Versioned Mendeley deposit by Gupta, Pareek, Singal and Rao; DOI 10.17632/njdjkbxdpn.1. Original per-image provenance is not explained on the landing page.",
+    "quality": "Stable DOI, named contributors, version number, explicit positive/negative counts and annotation formats.",
+    "limits": "No verified label error rate, duplicate audit, source-video grouping or geographic coverage. Appearance labels are not evidence of ownership, affiliation or intent.",
+    "splits": "Independent scene/source split procedure not described on the inspected landing page.",
+    "access": "Public deposit and download controls visible; full archive not downloaded.",
+    "license": "Deposit declares CC BY 4.0. Individual source-image rights were not independently traced.",
+    "semantics": "Object categories and locations; no documented event, relationship or intent labels.",
+    "sources": [
+      {
+        "title": "Mendeley Data v1",
+        "url": "https://data.mendeley.com/datasets/njdjkbxdpn/1"
+      }
+    ],
+    "id": "D42",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Military Assets Dataset (Kaggle v5)",
+    "year": 2024,
+    "group": "Web and synthetic imagery",
+    "scope": "Military-labelled mixed objects",
+    "modality": "Visible images; collection process incompletely documented",
+    "unit": "images",
+    "count": 26315,
+    "count_note": "21,978 train + 2,941 validation + 1,396 test = 26,315 author-reported labelled images.",
+    "classes": "12 broad categories spanning people, vehicles, aircraft, ships and other equipment or structures.",
+    "annotations": "YOLO-format object labels advertised by title/card; annotation files were not audited.",
+    "features": "Published split counts and a mixed class vocabulary.",
+    "provenance": "RAWx18 / Ryan Madhuwala community Kaggle deposit, current version 5.",
+    "quality": "A public card identifies classes, split counts, author and declared licence.",
+    "limits": "No per-image origins, deduplication report, label review study, augmentation accounting or scene-level split method shown. Publisher claims about suitability are not independent validation. Person-role labels cannot establish legal status or intent.",
+    "splits": "Published split sizes; independence and duplicate leakage unverified.",
+    "access": "Public card/API; archive download not performed.",
+    "license": "Card declares CC BY 4.0; upstream rights and provenance remain unverified.",
+    "semantics": "Object-category annotations; no documented temporal events or verified scenario explanations.",
+    "sources": [
+      {
+        "title": "Owner dataset card",
+        "url": "https://www.kaggle.com/datasets/rawsi18/military-assets-dataset-12-classes-yolo8-format"
+      },
+      {
+        "title": "Owner metadata API",
+        "url": "https://www.kaggle.com/api/v1/datasets/view/rawsi18/military-assets-dataset-12-classes-yolo8-format"
+      }
+    ],
+    "id": "D43",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Military-Aircraft-Detection (Illia56 mirror)",
+    "year": null,
+    "group": "Web and synthetic imagery",
+    "scope": "Military-labelled aircraft; mirror status",
+    "modality": "Visible aircraft imagery",
+    "unit": "images",
+    "count": null,
+    "count_note": "Card text reports 43 types. Its raw size-category tag and platform index disagree; neither is a verified image inventory.",
+    "classes": "43 aircraft types according to card; not interchangeable with the current 114-class Kaggle description.",
+    "annotations": "Card describes Pascal VOC-coordinate boxes. Other task tags such as depth estimation or segmentation do not establish those annotations exist.",
+    "features": "Example of community repackaging with a different ontology snapshot.",
+    "provenance": "Hugging Face Illia56 card; exact source/version chain not established by card.",
+    "quality": "Public documentation makes its box representation visible and asks users to report duplicates and wrong labels.",
+    "limits": "No verified image count, split protocol or data rights chain. Broad task tags are unsupported by a documented annotation inventory. Do not count as a known independent collection.",
+    "splits": "Not established.",
+    "access": "Card public; data files not downloaded.",
+    "license": "Card declares Apache-2.0; source-image rights and relationship to differently licensed owner datasets unresolved.",
+    "semantics": "Advertised aircraft labels and boxes only; no evidence for scene events or all tagged tasks.",
+    "sources": [
+      {
+        "title": "Dataset card",
+        "url": "https://huggingface.co/datasets/Illia56/Military-Aircraft-Detection"
+      },
+      {
+        "title": "Raw card inspected",
+        "url": "https://huggingface.co/datasets/Illia56/Military-Aircraft-Detection/raw/main/README.md"
+      }
+    ],
+    "id": "D44",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "RGB military-target collection described by Jeong et al. (2025)",
+    "year": 2025,
+    "group": "Web and synthetic imagery",
+    "scope": "Paper-described military object data; verified public dataset release not established",
+    "modality": "Unreal Engine synthetic RGB imagery and web-collected real RGB images",
+    "unit": "images",
+    "count": null,
+    "count_note": "The accessible primary abstract does not report dataset sizes or a complete class inventory.",
+    "classes": "Military targets; exact label inventory not established from abstract.",
+    "annotations": "Object detection context; precise released annotation schema not verified.",
+    "features": "Synthetic and real image components described in a research paper.",
+    "provenance": "Jongoh Jeong, Youngjin Oh, Gyeongrae Nam, Jeongeun Lee, Kuk-Jin Yoon; Exploring Syn-to-Real Domain Adaptation for Military Target Detection, arXiv:2512.23208, 29 Dec 2025.",
+    "quality": "Primary paper provenance is identifiable; real and synthetic origins are distinguished.",
+    "limits": "A public paper and web-collected source images do not establish a publicly downloadable, rights-cleared dataset. Counts, annotations, source independence and data licence remain unverified.",
+    "splits": "Abstract describes a synthetic training/real validation pair; no exact file manifest verified.",
+    "access": "Public arXiv abstract/PDF link; no dataset release verified. HTML full text unavailable in this inspection.",
+    "license": "No dataset-specific licence verified; arXiv article licence is separate.",
+    "semantics": "Paper describes object detection labels, not scene-caption or situational-narrative annotations.",
+    "sources": [
+      {
+        "title": "Primary arXiv record",
+        "url": "https://arxiv.org/abs/2512.23208"
+      }
+    ],
+    "id": "D45",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "CAMO",
+    "year": 2019,
+    "group": "Camouflage segmentation",
+    "scope": "Natural and artificial camouflage; adjacent comparison",
+    "modality": "Visible images",
+    "unit": "images",
+    "count": 2500,
+    "count_note": "1,250 camouflaged images plus 1,250 non-camouflaged COCO images. The often-quoted 1,250 refers to the camouflaged half.",
+    "classes": "Naturally and artificially camouflaged objects; paper context includes animals and humans.",
+    "annotations": "Objectness/foreground masks; CAMO++ instance annotations belong to a separate extension.",
+    "features": "Includes both camouflaged examples and non-camouflaged comparison images.",
+    "provenance": "Le et al., CVIU 2019; official author project page. Non-camouflaged images come from MS-COCO.",
+    "quality": "Creator states subset counts, masks, split sizes and licence.",
+    "limits": "Foreground mask is not fine-grained identity. COCO reuse means overlap with COCO-derived resources is possible. No independent data-quality audit performed.",
+    "splits": "Each half has 1,000 train / 250 test images, per creator page.",
+    "access": "Public creator links; archive not downloaded.",
+    "license": "Creator page declares CC BY-NC-SA 4.0, with no commercial use.",
+    "semantics": "Camouflaged foreground pixels; no action or scenario label system.",
+    "sources": [
+      {
+        "title": "Creator project page",
+        "url": "https://sites.google.com/view/ltnghia/research/camo"
+      },
+      {
+        "title": "Creator evaluation repository",
+        "url": "https://github.com/ltnghia/CAMO"
+      }
+    ],
+    "id": "D46",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "COD10K",
+    "year": 2020,
+    "group": "Camouflage segmentation",
+    "scope": "General natural camouflage; not a military identity dataset",
+    "modality": "Visible natural-scene images",
+    "unit": "images",
+    "count": 10000,
+    "count_note": "Original paper abstract reports 10,000 images across 78 categories; benchmark subsets must be distinguished from the full release.",
+    "classes": "Natural-scene object categories; name does not imply military classes.",
+    "annotations": "Category, boxes, object/instance masks and detailed boundary/matting annotations described by paper.",
+    "features": "Objects visually similar to surrounding backgrounds; multiple annotation granularities.",
+    "provenance": "Fan et al., CVPR 2020; creator SINet repository.",
+    "quality": "Primary paper and creator repository document annotation diversity and a re-verification procedure.",
+    "limits": "Natural camouflage is not evidence of military identity or intent. No label error audit conducted here. Historic project domain returned unrelated content during this review; cite the creator repository/paper instead.",
+    "splits": "Creator notes revised training/test bundles; release versions need explicit identification.",
+    "access": "Creator repository and cloud data links visible; archive not downloaded.",
+    "license": "Creator explicitly restricts dataset and derived content to noncommercial purposes.",
+    "semantics": "Visibility and shape of camouflaged objects; no operational event annotations.",
+    "sources": [
+      {
+        "title": "Primary CVPR paper",
+        "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html"
+      },
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/DengPingFan/SINet"
+      }
+    ],
+    "id": "D47",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "FSAR-Cap",
+    "year": 2025,
+    "group": "Scene, change and language",
+    "scope": "General fine-grained SAR descriptions",
+    "modality": "SAR imagery and captions",
+    "unit": "images",
+    "count": 14480,
+    "count_note": "72,400 image-text pairs, five captions per image. 2025 preprint; creator repository cites a 2026 IEEE GRSL publication and announces a V1 release.",
+    "classes": "Paper describes 22 underlying FAIR-CSAR object categories and 10 scene categories.",
+    "annotations": "Image and object descriptions from templates, manual correction/supplementation and LLM language standardization.",
+    "features": "Descriptions combine scene labels, objects and spatial relations.",
+    "provenance": "Derived from FAIR-CSAR; source collection described as 32 locations.",
+    "quality": "Paper documents human review of generated descriptions and distinguishes image count from caption count.",
+    "limits": "Annotation-quality superiority is the authors claim, not an independent audit. Caption length does not prove correctness; imagery overlaps FAIR-CSAR. Archive completeness and dataset licence not verified.",
+    "splits": "No independent source-split audit performed.",
+    "access": "Creator repository announces public availability and links a Science Data Bank V1 landing page. Archive download and file completeness not tested.",
+    "license": "Dataset licence not verified. The arXiv article licence does not license source images.",
+    "semantics": "Scene/object descriptions and geometry; no documented temporal military event truth.",
+    "sources": [
+      {
+        "title": "Primary paper",
+        "url": "https://arxiv.org/html/2510.16394v1"
+      },
+      {
+        "title": "Creator repository and release announcement",
+        "url": "https://github.com/hitjiao/FSAR-Cap"
+      },
+      {
+        "title": "Science Data Bank V1 landing page",
+        "url": "https://www.scidb.cn/en/detail?dataSetId=e4c17cc137e74878b46c03d8650ffa78&version=V1&code=o00118"
+      }
+    ],
+    "id": "D48",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "Functional Map of the World (fMoW)",
+    "year": 2018,
+    "group": "Scene, change and language",
+    "scope": "General land-use/function labels; government-sponsored",
+    "modality": "Satellite RGB or 4-/8-band multispectral, temporal observations",
+    "unit": "images",
+    "count": null,
+    "count_note": "Primary CVPR abstract reports over one million images from over 200 countries. Different fMoW-full/RGB and derived releases must not be added together.",
+    "classes": "63 categories in original abstract, including false detection; often described as 62 substantive classes.",
+    "annotations": "Bounding regions with functional labels plus timestamps and acquisition metadata.",
+    "features": "Temporal images, image-acquisition metadata and region-function labels distinguish it from small-object box datasets.",
+    "provenance": "Government-sponsored challenge with DigitalGlobe imagery; creator repository.",
+    "quality": "Primary publication, public data guide, defined metadata and explicit custom licence.",
+    "limits": "Function labels can depend on context beyond appearance; repeated observations of one site are correlated. No assurance of continuous events or operational activity labels.",
+    "splits": "Official challenge partitions exist; raw location grouping not independently audited.",
+    "access": "Public AWS data instructions; full approximately 3.5 TB or RGB approximately 200 GB reported by creator; not downloaded.",
+    "license": "Custom Functional Map of the World Challenge Public License. Data sharing/adaptations restricted to noncommercial use; licence explicitly excludes trained algorithms from its Adapted Material definition. This is not a general Apache/MIT licence.",
+    "semantics": "Functional land-use/region categories and temporal observations; not a complete scenario narrative.",
+    "sources": [
+      {
+        "title": "Primary CVPR paper",
+        "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Christie_Functional_Map_of_CVPR_2018_paper.html"
+      },
+      {
+        "title": "Creator data guide",
+        "url": "https://github.com/fMoW/dataset"
+      },
+      {
+        "title": "Data licence",
+        "url": "https://raw.githubusercontent.com/fMoW/dataset/master/LICENSE"
+      }
+    ],
+    "id": "D49",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "LEVIR-CC",
+    "year": 2022,
+    "group": "Scene, change and language",
+    "scope": "General remote-sensing change descriptions",
+    "modality": "Paired optical remote-sensing images",
+    "unit": "image pairs",
+    "count": 10077,
+    "count_note": "50,385 difference-describing sentences; five per pair. Distinct from LEVIR-CD image-pair counts and LEVIR-MCI annotations.",
+    "classes": "Changes and unchanged content described in language.",
+    "annotations": "Pre/post images and JSON captions; a separate LEVIR-MCI resource adds change masks.",
+    "features": "Temporal visual comparison with multiple textual descriptions.",
+    "provenance": "Chen-Yang Liu creator repository and author-linked Hugging Face dataset card.",
+    "quality": "Creator documents structure, pair/sentence units and train/validation/test folders.",
+    "limits": "No verified source-scene independence, caption error rate or complete image-rights chain. Five captions for a pair do not provide five independent events.",
+    "splits": "Train/validation/test folders provided; source-scene independence not independently checked.",
+    "access": "Creator links Hugging Face and cloud downloads; download not tested.",
+    "license": "Author-linked HF card declares Apache-2.0. Underlying imagery provenance/terms require clarification; do not automatically import or overwrite terms from similarly named LEVIR releases.",
+    "semantics": "Textual differences between dates; causal explanations and intent are not established.",
+    "sources": [
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/Chen-Yang-Liu/LEVIR-CC-Dataset"
+      },
+      {
+        "title": "Author-linked card",
+        "url": "https://huggingface.co/datasets/lcybuaa/LEVIR-CC/raw/main/README.md"
+      }
+    ],
+    "id": "D50",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "LEVIR-CD (original release)",
+    "year": 2020,
+    "group": "Scene, change and language",
+    "scope": "Civilian building-change imagery",
+    "modality": "Paired Google Earth RGB; 0.5 m/pixel; 1024 x 1024",
+    "unit": "image pairs",
+    "count": 637,
+    "count_note": "31,333 individual changed-building instances; 5-14 year intervals. LEVIR-CD+ is a separate extension.",
+    "classes": "Binary changed/unchanged building regions.",
+    "annotations": "Expert binary pixel masks for building growth or decline.",
+    "features": "Two dates per location; seasonal and illumination variation included.",
+    "provenance": "20 regions in Texas; imagery acquired 2002-2018.",
+    "quality": "Creator describes annotation by one interpreter followed by checking by another; source regions and collection dates documented.",
+    "limits": "Geography and subject matter are narrow. A change mask does not identify why a building changed. Smaller tiles/derivatives are not additional independent locations.",
+    "splits": "Original release and later CD+ extension must be distinguished; split manifest not audited.",
+    "access": "Creator page with public links; archive not downloaded.",
+    "license": "Creator explicitly restricts images/annotations to academic purposes and prohibits commercial use; Google Earth terms also apply.",
+    "semantics": "Where building-related change is visible between dates; no causal, military or event-intent labels.",
+    "sources": [
+      {
+        "title": "Creator dataset page",
+        "url": "https://justchenhao.github.io/LEVIR/"
+      }
+    ],
+    "id": "D51",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "RSICD",
+    "year": 2018,
+    "group": "Scene, change and language",
+    "scope": "General remote sensing; adjacent comparison",
+    "modality": "RGB remote-sensing images, 224 x 224 with varying resolutions",
+    "unit": "images",
+    "count": 10921,
+    "count_note": "Five sentence descriptions per image according to creator README; sentence count is not independent image count.",
+    "classes": "Remote-sensing scene descriptions; not a military object taxonomy.",
+    "annotations": "Image-caption associations in JSON.",
+    "features": "Multiple natural-language descriptions for the same scene.",
+    "provenance": "Images collected from Google Earth, Baidu Map, MapABC and Tianditu; creator repository linked to Lu et al., TGRS 2018.",
+    "quality": "Named paper, publicly described format, sources and image count.",
+    "limits": "No pixel/box localization implied by captions. Image rights from source services and independence across derivatives need separate documentation; no annotation accuracy audit performed.",
+    "splits": "Published annotation JSON contains dataset organization; actual split records were not downloaded.",
+    "access": "Creator repository with data links; full download not tested.",
+    "license": "No explicit dataset licence found in inspected README. Source-platform image terms remain separate.",
+    "semantics": "Descriptions of visible scene content; captions do not establish hidden intent or full temporal events.",
+    "sources": [
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/201528014227051/RSICD_optimal"
+      }
+    ],
+    "id": "D52",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "RSVQA-HR",
+    "year": 2020,
+    "group": "Scene, change and language",
+    "scope": "General remote sensing; adjacent comparison",
+    "modality": "USGS aerial RGB orthophotos; dataset section states 15 cm; 512 x 512 patches",
+    "unit": "image patches",
+    "count": 10659,
+    "count_note": "1,066,316 question-answer pairs from 10,659 images cut from 161 USGS tiles.",
+    "classes": "Static mapped entities and land-use concepts; answer spaces differ across LR and HR.",
+    "annotations": "Image/question/answer triplets generated from OpenStreetMap records and templates.",
+    "features": "Presence/comparison and object-area questions; HR counting answers are not quantized. Multiple questions per image.",
+    "provenance": "Lobry et al.; satellite or aerial imagery joined with volunteer OpenStreetMap annotations.",
+    "quality": "Paper explicitly documents source-tile splitting and discusses source-label and time-alignment limitations.",
+    "limits": "OSM can be incomplete, misregistered or temporally mismatched to imagery. Template questions have limited diversity. Labels may describe mapped information not visually resolvable in the image. Paper v2 has an internal resolution discrepancy: its conclusion mentions 30 cm while the dataset subsection states 15 cm; the stated patch area agrees with 15 cm.",
+    "splits": "Source-tile split with a second test region/sensor distinct from training; full manifest not audited.",
+    "access": "Paper and creator code public; historic dataset website failed DNS in this session; data download not verified.",
+    "license": "Creator code GPL-3.0; this is not a verified unified licence for imagery, OSM-derived data and the full dataset.",
+    "semantics": "Constrained questions about mapped scene content and relations, not open-ended events or intent.",
+    "sources": [
+      {
+        "title": "Primary paper v2",
+        "url": "https://arxiv.org/html/2003.07333v2"
+      },
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/syvlo/RSVQA"
+      }
+    ],
+    "id": "D53",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "RSVQA-LR",
+    "year": 2020,
+    "group": "Scene, change and language",
+    "scope": "General remote sensing; adjacent comparison",
+    "modality": "Sentinel-2 RGB; 10 m bands; 256 x 256 image patches",
+    "unit": "image patches",
+    "count": 772,
+    "count_note": "77,232 question-answer pairs from 772 images cut from 9 source tiles.",
+    "classes": "Static mapped entities and land-use concepts; answer spaces differ across LR and HR.",
+    "annotations": "Image/question/answer triplets generated from OpenStreetMap records and templates.",
+    "features": "Presence/comparison and rural/urban questions; LR counting answers are quantized. Multiple questions per image.",
+    "provenance": "Lobry et al.; satellite or aerial imagery joined with volunteer OpenStreetMap annotations.",
+    "quality": "Paper explicitly documents source-tile splitting and discusses source-label and time-alignment limitations.",
+    "limits": "OSM can be incomplete, misregistered or temporally mismatched to imagery. Template questions have limited diversity. Labels may describe mapped information not visually resolvable in the image.",
+    "splits": "Source-tile split, 7 training / 1 validation / 1 test tile, documented to limit spatial correlation.",
+    "access": "Paper and creator code public; historic dataset website failed DNS in this session; data download not verified.",
+    "license": "Creator code GPL-3.0; this is not a verified unified licence for imagery, OSM-derived data and the full dataset.",
+    "semantics": "Constrained questions about mapped scene content and relations, not open-ended events or intent.",
+    "sources": [
+      {
+        "title": "Primary paper v2",
+        "url": "https://arxiv.org/html/2003.07333v2"
+      },
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/syvlo/RSVQA"
+      }
+    ],
+    "id": "D54",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "SARChat-2M / SARChat-Bench",
+    "year": 2025,
+    "group": "Scene, change and language",
+    "scope": "General SAR with inherited mixed labels",
+    "modality": "SAR imagery with generated text",
+    "unit": "dialogue samples",
+    "count": 2063548,
+    "count_note": "Paper reports 1,836,912 train + 226,636 test = 2,063,548 dialogue samples. These reuse SARDet-100K imagery; they are not two million independent images.",
+    "classes": "Six inherited object groups; labels such as tank must be traced to source semantics rather than assumed to mean armored vehicles.",
+    "annotations": "Template-generated classification, description, counting, grounding, referring and cross-modal dialogue examples.",
+    "features": "Language supervision is mostly derived from existing classes and geometric annotations.",
+    "provenance": "Derived from SARDet-100K, itself a combination of ten SAR sources.",
+    "quality": "Primary paper documents task construction and counts; repository exposes task totals and licence.",
+    "limits": "Repeated source images limit independence; template bias and inherited annotation errors affect supervision quality. README dataset link literally points to YourOrg/SARChat; no actual HF dataset was returned by exact-name search in this session. No independently audited scenario truth.",
+    "splits": "Paper reports train/test dialogue counts; underlying-image split independence not independently audited.",
+    "access": "Paper and code public; official README dataset link is a placeholder. Public data release not verified.",
+    "license": "Repository LICENSE is CC BY-NC 4.0. Constituent dataset rights remain separate.",
+    "semantics": "Structured visible/mapped content and geometry-derived relations; no verified operational-event or intent ground truth.",
+    "sources": [
+      {
+        "title": "Primary paper v5",
+        "url": "https://arxiv.org/html/2502.08168v5"
+      },
+      {
+        "title": "Creator repository",
+        "url": "https://github.com/JimmyMa99/SARChat"
+      },
+      {
+        "title": "Repository licence",
+        "url": "https://raw.githubusercontent.com/JimmyMa99/SARChat/main/LICENSE"
+      }
+    ],
+    "id": "D55",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  },
+  {
+    "name": "xBD",
+    "year": 2019,
+    "group": "Scene, change and language",
+    "scope": "Humanitarian natural-disaster damage assessment",
+    "modality": "Pre/post satellite imagery and satellite metadata",
+    "unit": "building annotations",
+    "count": 850736,
+    "count_note": "Primary paper reports 850,736 building annotations across 45,362 square kilometres of imagery; this is not an image count.",
+    "classes": "Ordinal building-damage levels; environmental factors such as fire, water and smoke described.",
+    "annotations": "Building polygons, damage labels and pre/post associations; environmental boxes also described by original paper.",
+    "features": "Event-linked imagery with a defined observable property: building damage after natural disasters.",
+    "provenance": "Gupta et al.; collaboration with disaster-response agencies; xView2/xBD challenge.",
+    "quality": "Primary paper states annotation units and an ordinal damage scale; event context is explicitly bounded to disaster assessment.",
+    "limits": "Natural-disaster labels do not establish cause for arbitrary destruction or military events. Full release/version counts and label uncertainty were not audited.",
+    "splits": "Challenge partitions not independently inspected in this review.",
+    "access": "Paper accessible; xView2 dataset page required JavaScript and its data workflow was not verified.",
+    "license": "Release-specific data licence not verified during this review.",
+    "semantics": "Observable damage class and event pairing for natural disasters, not intent or attribution.",
+    "sources": [
+      {
+        "title": "Primary paper",
+        "url": "https://arxiv.org/abs/1911.09296"
+      },
+      {
+        "title": "Official dataset landing page",
+        "url": "https://xview2.org/dataset"
+      }
+    ],
+    "id": "D56",
+    "checked": "2026-11-10",
+    "audit_level": "Documentation reviewed; raw dataset not audited"
+  }
+]

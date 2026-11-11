@@ -1,0 +1,80 @@
+# Target class list, adopted 11 November 2026. See ../../Training Datasets.md section 4b.
+#
+# "leaves" are the categories the detector is trained on, in category-id order (1-based in COCO).
+# "parents" give the fallback name: when a leaf is uncertain, the parent is reported.
+# "sources" map each raw dataset's label names onto leaves. A null target means "drop this box".
+version: 1
+
+leaves:
+  - person
+  - soldier
+  - weapon
+  - vehicle
+  - military_vehicle
+  - tank
+  - military_truck
+  - artillery
+  - aircraft
+  - drone
+  - bird
+  - boat
+  - warship
+  - trench
+
+parents:
+  soldier: person
+  tank: military_vehicle
+  military_truck: military_vehicle
+  artillery: military_vehicle
+  warship: boat
+
+# Classes that never raise an alert on their own.
+alert_exclude:
+  - bird
+
+sources:
+  kaggle_military:            # D43, YOLO txt, ids 0..11 in military_dataset.yaml order
+    camouflage_soldier: soldier
+    weapon: weapon
+    military_tank: tank
+    military_truck: military_truck
+    military_vehicle: military_vehicle
+    civilian: person
+    soldier: soldier
+    civilian_vehicle: vehicle
+    military_artillery: artillery
+    trench: trench
+    military_aircraft: aircraft
+    military_warship: warship
+  hit_uav:                    # VOC XML names
+    Person: person
+    Car: vehicle
+    Bicycle: person
+    OtherVehicle: vehicle
+    DontCare: null
+  heridal:                    # VOC XML
+    person: person
+  seadronessee:               # COCO JSON, v2 names; v1 names also listed
+    swimmer: person
+    floater: person
+    swimmer on boat: person
+    floater on boat: person
+    swimmer with life jacket: person
+    boat: boat
+    jetski: boat
+    buoy: null
+    life jacket: null
+    life_saving_appliances: null
+    ignored: null
+  halmstad:                   # MATLAB groundTruth label names
+    DRONE: drone
+    BIRD: bird
+    AIRPLANE: aircraft
+    HELICOPTER: aircraft
+  mendeley_vehicles:          # D42; exact label strings to confirm after download
+    "Military Truck": military_truck
+    "Military Tank": tank
+    "Military Aircraft": aircraft
+    "Military Helicopter": aircraft
+    "Civilian Car": vehicle
+    "Civilian Aircraft": aircraft

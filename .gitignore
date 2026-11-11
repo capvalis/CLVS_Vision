@@ -1,0 +1,20 @@
+# Local operating-system and Python files
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Bulk datasets stay local; keep dataset documentation and export metadata in Git.
+/Dataset/**/raw/
+/Dataset/**/extracted/
+/Dataset/Halmstad/frames/
+/Dataset/Halmstad/labels/
+/Dataset/military_object_dataset/train/
+/Dataset/military_object_dataset/val/
+/Dataset/military_object_dataset/test/

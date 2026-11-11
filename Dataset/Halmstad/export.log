@@ -1,0 +1,52 @@
+[export] 650 clips, stride 3
+[export] 25/650
+[export] 50/650
+[export] 75/650
+[export] 100/650
+[export] 125/650
+[export] 150/650
+[export] 175/650
+[export] 200/650
+[export] 225/650
+[export] 250/650
+[export] 275/650
+[export] 300/650
+[export] 325/650
+[export] 350/650
+[export] 375/650
+[export] 400/650
+[export] 425/650
+[export] 450/650
+[export] 475/650
+[export] 500/650
+[export] 525/650
+[export] 550/650
+[export] 575/650
+[export] 600/650
+[export] 625/650
+[export] 650/650
+{
+ "clips": 650,
+ "frames_written": 67983,
+ "frames_in_videos": 203328,
+ "clips_with_label_mismatch": [
+  "IR_BIRD_027",
+  "IR_BIRD_035",
+  "IR_DRONE_096",
+  "IR_DRONE_101",
+  "IR_DRONE_104",
+  "V_BIRD_003",
+  "V_BIRD_004",
+  "V_BIRD_005",
+  "V_BIRD_006",
+  "V_BIRD_009",
+  "V_BIRD_015",
+  "V_BIRD_017",
+  "V_BIRD_020",
+  "V_BIRD_021",
+  "V_BIRD_022",
+  "V_BIRD_023",
+  "V_HELICOPTER_040"
+ ],
+ "stride": 3
+}

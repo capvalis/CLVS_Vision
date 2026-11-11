@@ -1,0 +1,16 @@
+{
+  "profiles": 56,
+  "unique_ids": 56,
+  "source_references": 144,
+  "unique_source_urls": 128,
+  "report_words": 26365,
+  "report_bytes": 208779,
+  "checks": [
+    "All D01\u2013D56 present exactly once",
+    "Names match original catalogue",
+    "Required fields populated",
+    "Source locators/evidence populated",
+    "56 profile headings and anchors",
+    "No replacement characters"
+  ]
+}

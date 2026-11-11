@@ -1,0 +1,11 @@
+.venv/
+third_party/
+weights/
+datasets/
+runs/
+__pycache__/
+*.pyc
+*.pth
+*.onnx
+*.engine
+.DS_Store
